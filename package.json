@@ -1,5 +1,5 @@
 {
-  "name": "radix",
+  "name": "radix-css",
   "version": "1.1.0",
   "description": "Radix is an OOCSS tool",
   "main": "index.js",
