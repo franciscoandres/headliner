@@ -1,0 +1,41 @@
+{
+  "name": "radix",
+  "version": "1.1.0",
+  "description": "Radix is an OOCSS tool",
+  "main": "index.js",
+  "scripts": {
+    "server": "browser-sync start --server --files './*, dist/css/*.css'",
+    "sass": "node-sass --output-style expanded source/radix.sass dist/css/radix.css",
+    "prefix": "postcss -u autoprefixer --autoprefixer.browsers '> 20%' -r dist/css/radix.css",
+    "cmq": "mqpacker dist/css/radix.css dist/css/radix.css",
+    "minify:css": "cleancss -o dist/css/radix.min.css dist/css/radix.css",
+    "build:css": "npm run sass && npm run prefix && npm run cmq && npm run minify:css",
+    "watch:css": "onchange 'source/*.sass' -- npm run build:css",
+    "watch:all": "parallelshell 'npm run server' 'npm run watch:css'",
+    "postinstall": "npm run watch:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscogo/radix.git"
+  },
+  "keywords": [
+    "css",
+    "oocss"
+  ],
+  "author": "Francisco A. Gonzalez O.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franciscogo/radix/issues"
+  },
+  "homepage": "https://github.com/franciscogo/radix#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.4.0",
+    "browser-sync": "^2.14.0",
+    "clean-css": "^3.4.19",
+    "css-mqpacker": "^5.0.1",
+    "node-sass": "^3.8.0",
+    "onchange": "^2.5.0",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.5.2"
+  }
+}

@@ -1,0 +1,38 @@
+.hv-grow
+	transition: transform .2s ease-in-out
+	&:hover,
+	&:focus,
+	&:active
+		transform: scale(1.1)
+
+.hv-glow
+	transition: box-shadow .2s ease-in-out
+	&:hover,
+	&:focus,
+	&:active
+		box-shadow: 0 0 12px rgba(0, 0 , 0, .4)
+
+.hv-opacity
+	transition: opacity .2s ease-in-out
+	&:hover,
+	&:focus,
+	&:active
+		opacity: .750
+
+.hv-opacity-reverse
+	opacity: .750
+	transition: opacity .2s ease-in-out
+	&:hover,
+	&:focus,
+	&:active
+		opacity: 1
+
+.hv-underline
+	&:hover,
+	&:focus,
+	&:active
+		text-decoration: underline
+
+.hv-pointer
+	&:hover
+		cursor: pointer
