@@ -71,9 +71,17 @@ textarea {
   padding: .5em;
 }
 
+.input:focus, .input:active,
+.select:focus,
+.select:active,
+.textarea:focus,
+.textarea:active {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
 .button {
   background-color: transparent;
-  border: 1px solid transparent;
+  border: 1px solid currentColor;
   cursor: pointer;
   display: inline-block;
   height: auto;
@@ -88,7 +96,7 @@ textarea {
 }
 
 .button:hover, .button:focus, .button:active {
-  box-shadow: inset 0 0 12px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0 0 0 999px rgba(0, 0, 0, 0.25);
 }
 
 .table {
@@ -1188,7 +1196,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
   .max-width-16-s {
     max-width: 16em;
   }
@@ -1723,7 +1731,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
   .max-width-16-m {
     max-width: 16em;
   }
@@ -2258,7 +2266,7 @@ textarea {
   }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
   .max-width-16-l {
     max-width: 16em;
   }
