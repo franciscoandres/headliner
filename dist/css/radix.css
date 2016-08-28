@@ -1196,6 +1196,30 @@ textarea {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
+.black {
+  color: #000;
+}
+
+.border-black {
+  border-color: #000;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.white {
+  color: #fff;
+}
+
+.border-white {
+  border-color: #fff;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
 @media screen and (min-width: 30em) {
   .max-width-16-s {
     max-width: 16em;
