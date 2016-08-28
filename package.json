@@ -1,14 +1,14 @@
 {
-  "name": "radix-css",
-  "version": "1.1.1",
-  "description": "Radix is an OOCSS tool",
+  "name": "headline-css",
+  "version": "1.0.0",
+  "description": "Headline is an OOCSS tool",
   "main": "index.js",
   "scripts": {
     "server": "browser-sync start --server --files './*, dist/css/*.css'",
-    "sass": "node-sass --output-style expanded source/radix.sass dist/css/radix.css",
-    "prefix": "postcss -u autoprefixer --autoprefixer.browsers '> 20%' -r dist/css/radix.css",
-    "cmq": "mqpacker dist/css/radix.css dist/css/radix.css",
-    "minify:css": "cleancss -o dist/css/radix.min.css dist/css/radix.css",
+    "sass": "node-sass --output-style expanded source/headline.sass dist/css/headline.css",
+    "prefix": "postcss -u autoprefixer --autoprefixer.browsers '> 20%' -r dist/css/headline.css",
+    "cmq": "mqpacker dist/css/headline.css dist/css/headline.css",
+    "minify:css": "cleancss -o dist/css/headline.min.css dist/css/headline.css",
     "build:css": "npm run sass && npm run prefix && npm run cmq && npm run minify:css",
     "watch:css": "onchange 'source/*.sass' -- npm run build:css",
     "watch:all": "parallelshell 'npm run server' 'npm run watch:css'",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/franciscogo/radix.git"
+    "url": "git+https://github.com/franciscogo/headline.git"
   },
   "keywords": [
     "css",
@@ -25,9 +25,9 @@
   "author": "Francisco A. Gonzalez O.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/franciscogo/radix/issues"
+    "url": "https://github.com/franciscogo/headline/issues"
   },
-  "homepage": "https://github.com/franciscogo/radix#readme",
+  "homepage": "https://github.com/franciscogo/headline#readme",
   "devDependencies": {
     "autoprefixer": "^6.4.0",
     "browser-sync": "^2.14.0",

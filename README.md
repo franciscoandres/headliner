@@ -1,6 +1,6 @@
-# Radix
+# Headline
 
-Radix is an OOCSS tool
+Headline is an OOCSS tool
 
 ## Todo
 
