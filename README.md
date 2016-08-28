@@ -1,6 +1,6 @@
-# Headline
+# Headliner
 
-Headline is an OOCSS tool
+Headliner is an OOCSS tool
 
 ## Todo
 
