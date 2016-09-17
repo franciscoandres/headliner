@@ -171,6 +171,14 @@ textarea {
   border-radius: 100%;
 }
 
+.mw-1 {
+  max-width: 1em;
+}
+
+.mw-2 {
+  max-width: 2em;
+}
+
 .mw-4 {
   max-width: 4em;
 }
@@ -193,6 +201,38 @@ textarea {
 
 .mw-64 {
   max-width: 64em;
+}
+
+.w-1 {
+  width: 1em;
+}
+
+.w-2 {
+  width: 2em;
+}
+
+.w-4 {
+  width: 4em;
+}
+
+.w-8 {
+  width: 8em;
+}
+
+.w-16 {
+  width: 16em;
+}
+
+.w-32 {
+  width: 32em;
+}
+
+.w-48 {
+  width: 48em;
+}
+
+.w-64 {
+  width: 64em;
 }
 
 .col-1 {
@@ -499,6 +539,39 @@ textarea {
 
 .hover-pointer:hover {
   cursor: pointer;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg-top {
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.bg-right {
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.bg-bottom {
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.bg-left {
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 
 .p0 {
@@ -877,19 +950,19 @@ textarea {
   position: static;
 }
 
-.top0 {
+.top-0 {
   top: 0;
 }
 
-.right0 {
+.right-0 {
   right: 0;
 }
 
-.bottom0 {
+.bottom-0 {
   bottom: 0;
 }
 
-.left0 {
+.left-0 {
   left: 0;
 }
 
@@ -899,6 +972,11 @@ textarea {
 
 .hidden {
   display: none;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
 }
 
 .block {
@@ -1076,32 +1154,34 @@ textarea {
   clear: both;
 }
 
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-fixed {
-  background-attachment: fixed;
-}
-
 .center {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .fit {
   max-width: 100%;
 }
 
-.aspect-ratio-4x3 {
+.aspect-ratio {
   height: 0;
-  padding-top: 75%;
   position: relative;
 }
 
-.aspect-ratio-16x9 {
-  height: 0;
-  padding-top: 56.25%;
-  position: relative;
+.aspect-ratio--3x2 {
+  padding-bottom: 66.66%;
+}
+
+.aspect-ratio--4x3 {
+  padding-bottom: 75%;
+}
+
+.aspect-ratio--8x5 {
+  padding-bottom: 62.5%;
+}
+
+.aspect-ratio--16x9 {
+  padding-bottom: 56.25%;
 }
 
 .aspect-ratio--item {
@@ -1115,20 +1195,8 @@ textarea {
   z-index: 100;
 }
 
-.bg-transparent {
-  background-color: transparent;
-}
-
 .black {
   color: #000;
-}
-
-.border-black {
-  border-color: #000;
-}
-
-.bg-black {
-  background-color: #000;
 }
 
 .black-05 {
@@ -1171,6 +1239,14 @@ textarea {
   color: rgba(0, 0, 0, 0.9);
 }
 
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-black {
+  border-color: #000;
+}
+
 .border-black-05 {
   border-color: rgba(0, 0, 0, 0.05);
 }
@@ -1209,6 +1285,14 @@ textarea {
 
 .border-black-90 {
   border-color: rgba(0, 0, 0, 0.9);
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-black {
+  background-color: #000;
 }
 
 .bg-black-05 {
@@ -1255,14 +1339,6 @@ textarea {
   color: #fff;
 }
 
-.border-white {
-  border-color: #fff;
-}
-
-.bg-white {
-  background-color: #fff;
-}
-
 .white-05 {
   color: rgba(255, 255, 255, 0.05);
 }
@@ -1303,6 +1379,10 @@ textarea {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.border-white {
+  border-color: #fff;
+}
+
 .border-white-05 {
   border-color: rgba(255, 255, 255, 0.05);
 }
@@ -1341,6 +1421,10 @@ textarea {
 
 .border-white-90 {
   border-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .bg-white-05 {
@@ -1384,6 +1468,12 @@ textarea {
 }
 
 @media screen and (min-width: 30em) {
+  .mw-1-s {
+    max-width: 1em;
+  }
+  .mw-2-s {
+    max-width: 2em;
+  }
   .mw-4-s {
     max-width: 4em;
   }
@@ -1401,6 +1491,30 @@ textarea {
   }
   .mw-64-s {
     max-width: 64em;
+  }
+  .w-1-s {
+    width: 1em;
+  }
+  .w-2-s {
+    width: 2em;
+  }
+  .w-4-s {
+    width: 4em;
+  }
+  .w-8-s {
+    width: 8em;
+  }
+  .w-16-s {
+    width: 16em;
+  }
+  .w-32-s {
+    width: 32em;
+  }
+  .w-48-s {
+    width: 48em;
+  }
+  .w-64-s {
+    width: 64em;
   }
   .col-1-s {
     width: 8.33333%;
@@ -1887,16 +2001,16 @@ textarea {
   .static-s {
     position: static;
   }
-  .top0-s {
+  .top-0-s {
     top: 0;
   }
-  .right0-s {
+  .right-0-s {
     right: 0;
   }
-  .bottom0-s {
+  .bottom-0-s {
     bottom: 0;
   }
-  .left0-s {
+  .left-0-s {
     left: 0;
   }
   .border-box-s {
@@ -1904,6 +2018,10 @@ textarea {
   }
   .hidden-s {
     display: none;
+  }
+  .visible-s {
+    opacity: 1;
+    visibility: visible;
   }
   .block-s {
     display: block;
@@ -2033,6 +2151,12 @@ textarea {
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
+  .mw-1-m {
+    max-width: 1em;
+  }
+  .mw-2-m {
+    max-width: 2em;
+  }
   .mw-4-m {
     max-width: 4em;
   }
@@ -2050,6 +2174,30 @@ textarea {
   }
   .mw-64-m {
     max-width: 64em;
+  }
+  .w-1-m {
+    width: 1em;
+  }
+  .w-2-m {
+    width: 2em;
+  }
+  .w-4-m {
+    width: 4em;
+  }
+  .w-8-m {
+    width: 8em;
+  }
+  .w-16-m {
+    width: 16em;
+  }
+  .w-32-m {
+    width: 32em;
+  }
+  .w-48-m {
+    width: 48em;
+  }
+  .w-64-m {
+    width: 64em;
   }
   .col-1-m {
     width: 8.33333%;
@@ -2536,16 +2684,16 @@ textarea {
   .static-m {
     position: static;
   }
-  .top0-m {
+  .top-0-m {
     top: 0;
   }
-  .right0-m {
+  .right-0-m {
     right: 0;
   }
-  .bottom0-m {
+  .bottom-0-m {
     bottom: 0;
   }
-  .left0-m {
+  .left-0-m {
     left: 0;
   }
   .border-box-m {
@@ -2553,6 +2701,10 @@ textarea {
   }
   .hidden-m {
     display: none;
+  }
+  .visible-m {
+    opacity: 1;
+    visibility: visible;
   }
   .block-m {
     display: block;
@@ -2682,6 +2834,12 @@ textarea {
 }
 
 @media screen and (min-width: 60em) {
+  .mw-1-l {
+    max-width: 1em;
+  }
+  .mw-2-l {
+    max-width: 2em;
+  }
   .mw-4-l {
     max-width: 4em;
   }
@@ -2699,6 +2857,30 @@ textarea {
   }
   .mw-64-l {
     max-width: 64em;
+  }
+  .w-1-l {
+    width: 1em;
+  }
+  .w-2-l {
+    width: 2em;
+  }
+  .w-4-l {
+    width: 4em;
+  }
+  .w-8-l {
+    width: 8em;
+  }
+  .w-16-l {
+    width: 16em;
+  }
+  .w-32-l {
+    width: 32em;
+  }
+  .w-48-l {
+    width: 48em;
+  }
+  .w-64-l {
+    width: 64em;
   }
   .col-1-l {
     width: 8.33333%;
@@ -3185,16 +3367,16 @@ textarea {
   .static-l {
     position: static;
   }
-  .top0-l {
+  .top-0-l {
     top: 0;
   }
-  .right0-l {
+  .right-0-l {
     right: 0;
   }
-  .bottom0-l {
+  .bottom-0-l {
     bottom: 0;
   }
-  .left0-l {
+  .left-0-l {
     left: 0;
   }
   .border-box-l {
@@ -3202,6 +3384,10 @@ textarea {
   }
   .hidden-l {
     display: none;
+  }
+  .visible-l {
+    opacity: 1;
+    visibility: visible;
   }
   .block-l {
     display: block;
