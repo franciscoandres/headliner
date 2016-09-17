@@ -120,7 +120,27 @@ textarea {
 }
 
 .border-wide {
-  border-width: 3px;
+  border-width: .125;
+}
+
+.border-extra {
+  border-width: .250;
+}
+
+.border-top-0 {
+  border-top-width: 0;
+}
+
+.border-right-0 {
+  border-right-width: 0;
+}
+
+.border-bottom-0 {
+  border-bottom-width: 0;
+}
+
+.border-left-0 {
+  border-left-width: 0;
 }
 
 .border-none {
@@ -339,6 +359,30 @@ textarea {
   max-width: 30em;
 }
 
+.measure-tight {
+  max-width: 20em;
+}
+
+.times {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.helvetica {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.georgia {
+  font-family: georgia, serif;
+}
+
+.verdana {
+  font-family: verdana, sans-serif;
+}
+
+.code {
+  font-family: Courier, Monaco, monospace;
+}
+
 .headline {
   font-size: 5em;
 }
@@ -497,47 +541,35 @@ textarea {
   text-align: justify;
 }
 
-.hover-grow {
+.grow {
   -moz-osx-font-smoothing: grayscale;
   -moz-osx-font-smoothing-backface-visibility: hidden;
   -moz-osx-font-smoothing-transform: translateZ(0);
   transition: transform .2s ease-in-out;
 }
 
-.hover-grow:hover, .hover-grow:focus, .hover-grow:active {
+.grow:hover, .grow:focus {
   transform: scale(1.1);
 }
 
-.hover-glow {
+.glow {
   transition: box-shadow .2s ease-in-out;
 }
 
-.hover-glow:hover, .hover-glow:focus, .hover-glow:active {
+.glow:hover, .glow:focus {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
 }
 
-.hover-opacity {
-  transition: opacity .2s ease-in-out;
-}
-
-.hover-opacity:hover, .hover-opacity:focus, .hover-opacity:active {
-  opacity: .750;
-}
-
-.hover-opacity-reverse {
-  opacity: .750;
-  transition: opacity .2s ease-in-out;
-}
-
-.hover-opacity-reverse:hover, .hover-opacity-reverse:focus, .hover-opacity-reverse:active {
+.opacity {
   opacity: 1;
+  transition: opacity .2s ease-in-out;
 }
 
-.hover-underline:hover, .hover-underline:focus, .hover-underline:active {
-  text-decoration: underline;
+.opacity:hover, .opacity:focus {
+  opacity: .700;
 }
 
-.hover-pointer:hover {
+.pointer:hover {
   cursor: pointer;
 }
 
@@ -1594,6 +1626,9 @@ textarea {
   .measure-s {
     max-width: 30em;
   }
+  .measure-tight-s {
+    max-width: 20em;
+  }
   .headline-s {
     font-size: 5em;
   }
@@ -2277,6 +2312,9 @@ textarea {
   .measure-m {
     max-width: 30em;
   }
+  .measure-tight-m {
+    max-width: 20em;
+  }
   .headline-m {
     font-size: 5em;
   }
@@ -2959,6 +2997,9 @@ textarea {
   }
   .measure-l {
     max-width: 30em;
+  }
+  .measure-tight-l {
+    max-width: 20em;
   }
   .headline-l {
     font-size: 5em;
