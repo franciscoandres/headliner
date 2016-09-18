@@ -120,11 +120,11 @@ textarea {
 }
 
 .border-wide {
-  border-width: .125;
+  border-width: .125em;
 }
 
 .border-extra {
-  border-width: .250;
+  border-width: .250em;
 }
 
 .border-top-0 {
