@@ -303,6 +303,14 @@ textarea {
   width: 100%;
 }
 
+.mh-1 {
+  max-height: 1em;
+}
+
+.mh-2 {
+  max-height: 2em;
+}
+
 .mh-4 {
   max-height: 4em;
 }
@@ -1584,6 +1592,12 @@ textarea {
   .col-12-s {
     width: 100%;
   }
+  .mh-1-s {
+    max-height: 1em;
+  }
+  .mh-2-s {
+    max-height: 2em;
+  }
   .mh-4-s {
     max-height: 4em;
   }
@@ -2270,6 +2284,12 @@ textarea {
   .col-12-m {
     width: 100%;
   }
+  .mh-1-m {
+    max-height: 1em;
+  }
+  .mh-2-m {
+    max-height: 2em;
+  }
   .mh-4-m {
     max-height: 4em;
   }
@@ -2955,6 +2975,12 @@ textarea {
   }
   .col-12-l {
     width: 100%;
+  }
+  .mh-1-l {
+    max-height: 1em;
+  }
+  .mh-2-l {
+    max-height: 2em;
   }
   .mh-4-l {
     max-height: 4em;
