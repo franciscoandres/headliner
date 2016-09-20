@@ -191,36 +191,8 @@ textarea {
   border-radius: 100%;
 }
 
-.mw-1 {
-  max-width: 1em;
-}
-
-.mw-2 {
-  max-width: 2em;
-}
-
-.mw-4 {
-  max-width: 4em;
-}
-
-.mw-8 {
-  max-width: 8em;
-}
-
-.mw-16 {
-  max-width: 16em;
-}
-
-.mw-32 {
-  max-width: 32em;
-}
-
-.mw-48 {
-  max-width: 48em;
-}
-
-.mw-64 {
-  max-width: 64em;
+.w-auto {
+  width: auto;
 }
 
 .w-1 {
@@ -303,6 +275,58 @@ textarea {
   width: 100%;
 }
 
+.mw-1 {
+  max-width: 1em;
+}
+
+.mw-2 {
+  max-width: 2em;
+}
+
+.mw-4 {
+  max-width: 4em;
+}
+
+.mw-8 {
+  max-width: 8em;
+}
+
+.mw-16 {
+  max-width: 16em;
+}
+
+.mw-32 {
+  max-width: 32em;
+}
+
+.mw-48 {
+  max-width: 48em;
+}
+
+.mw-64 {
+  max-width: 64em;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-50 {
+  height: 50%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
 .mh-1 {
   max-height: 1em;
 }
@@ -333,30 +357,6 @@ textarea {
 
 .mh-64 {
   max-height: 64em;
-}
-
-.h-10 {
-  height: 10%;
-}
-
-.h-50 {
-  height: 50%;
-}
-
-.h-100 {
-  height: 100%;
-}
-
-.vh-10 {
-  height: 10vh;
-}
-
-.vh-50 {
-  height: 50vh;
-}
-
-.vh-100 {
-  height: 100vh;
 }
 
 .measure-wide {
@@ -1185,6 +1185,26 @@ textarea {
   align-items: baseline;
 }
 
+.item-start {
+  align-self: flex-start;
+}
+
+.item-center {
+  align-self: center;
+}
+
+.item-end {
+  align-self: flex-end;
+}
+
+.item-stretch {
+  align-self: stretch;
+}
+
+.item-baseline {
+  align-self: baseline;
+}
+
 .cf:after {
   content: " ";
   display: block;
@@ -1508,29 +1528,8 @@ textarea {
 }
 
 @media screen and (min-width: 30em) {
-  .mw-1-s {
-    max-width: 1em;
-  }
-  .mw-2-s {
-    max-width: 2em;
-  }
-  .mw-4-s {
-    max-width: 4em;
-  }
-  .mw-8-s {
-    max-width: 8em;
-  }
-  .mw-16-s {
-    max-width: 16em;
-  }
-  .mw-32-s {
-    max-width: 32em;
-  }
-  .mw-48-s {
-    max-width: 48em;
-  }
-  .mw-64-s {
-    max-width: 64em;
+  .w-auto-s {
+    width: auto;
   }
   .w-1-s {
     width: 1em;
@@ -1592,6 +1591,45 @@ textarea {
   .col-12-s {
     width: 100%;
   }
+  .mw-1-s {
+    max-width: 1em;
+  }
+  .mw-2-s {
+    max-width: 2em;
+  }
+  .mw-4-s {
+    max-width: 4em;
+  }
+  .mw-8-s {
+    max-width: 8em;
+  }
+  .mw-16-s {
+    max-width: 16em;
+  }
+  .mw-32-s {
+    max-width: 32em;
+  }
+  .mw-48-s {
+    max-width: 48em;
+  }
+  .mw-64-s {
+    max-width: 64em;
+  }
+  .h-auto-s {
+    height: auto;
+  }
+  .h-50-s {
+    height: 50%;
+  }
+  .h-100-s {
+    height: 100%;
+  }
+  .vh-50-s {
+    height: 50vh;
+  }
+  .vh-100-s {
+    height: 100vh;
+  }
   .mh-1-s {
     max-height: 1em;
   }
@@ -1615,24 +1653,6 @@ textarea {
   }
   .mh-64-s {
     max-height: 64em;
-  }
-  .h-10-s {
-    height: 10%;
-  }
-  .h-50-s {
-    height: 50%;
-  }
-  .h-100-s {
-    height: 100%;
-  }
-  .vh-10-s {
-    height: 10vh;
-  }
-  .vh-50-s {
-    height: 50vh;
-  }
-  .vh-100-s {
-    height: 100vh;
   }
   .measure-wide-s {
     max-width: 34em;
@@ -2197,32 +2217,26 @@ textarea {
   .items-baseline-s {
     align-items: baseline;
   }
+  .item-start-s {
+    align-self: flex-start;
+  }
+  .item-center-s {
+    align-self: center;
+  }
+  .item-end-s {
+    align-self: flex-end;
+  }
+  .item-stretch-s {
+    align-self: stretch;
+  }
+  .item-baseline-s {
+    align-self: baseline;
+  }
 }
 
 @media screen and (min-width: 30em) and (max-width: 60em) {
-  .mw-1-m {
-    max-width: 1em;
-  }
-  .mw-2-m {
-    max-width: 2em;
-  }
-  .mw-4-m {
-    max-width: 4em;
-  }
-  .mw-8-m {
-    max-width: 8em;
-  }
-  .mw-16-m {
-    max-width: 16em;
-  }
-  .mw-32-m {
-    max-width: 32em;
-  }
-  .mw-48-m {
-    max-width: 48em;
-  }
-  .mw-64-m {
-    max-width: 64em;
+  .w-auto-m {
+    width: auto;
   }
   .w-1-m {
     width: 1em;
@@ -2284,6 +2298,45 @@ textarea {
   .col-12-m {
     width: 100%;
   }
+  .mw-1-m {
+    max-width: 1em;
+  }
+  .mw-2-m {
+    max-width: 2em;
+  }
+  .mw-4-m {
+    max-width: 4em;
+  }
+  .mw-8-m {
+    max-width: 8em;
+  }
+  .mw-16-m {
+    max-width: 16em;
+  }
+  .mw-32-m {
+    max-width: 32em;
+  }
+  .mw-48-m {
+    max-width: 48em;
+  }
+  .mw-64-m {
+    max-width: 64em;
+  }
+  .h-auto-m {
+    height: auto;
+  }
+  .h-50-m {
+    height: 50%;
+  }
+  .h-100-m {
+    height: 100%;
+  }
+  .vh-50-m {
+    height: 50vh;
+  }
+  .vh-100-m {
+    height: 100vh;
+  }
   .mh-1-m {
     max-height: 1em;
   }
@@ -2307,24 +2360,6 @@ textarea {
   }
   .mh-64-m {
     max-height: 64em;
-  }
-  .h-10-m {
-    height: 10%;
-  }
-  .h-50-m {
-    height: 50%;
-  }
-  .h-100-m {
-    height: 100%;
-  }
-  .vh-10-m {
-    height: 10vh;
-  }
-  .vh-50-m {
-    height: 50vh;
-  }
-  .vh-100-m {
-    height: 100vh;
   }
   .measure-wide-m {
     max-width: 34em;
@@ -2889,32 +2924,26 @@ textarea {
   .items-baseline-m {
     align-items: baseline;
   }
+  .item-start-m {
+    align-self: flex-start;
+  }
+  .item-center-m {
+    align-self: center;
+  }
+  .item-end-m {
+    align-self: flex-end;
+  }
+  .item-stretch-m {
+    align-self: stretch;
+  }
+  .item-baseline-m {
+    align-self: baseline;
+  }
 }
 
 @media screen and (min-width: 60em) {
-  .mw-1-l {
-    max-width: 1em;
-  }
-  .mw-2-l {
-    max-width: 2em;
-  }
-  .mw-4-l {
-    max-width: 4em;
-  }
-  .mw-8-l {
-    max-width: 8em;
-  }
-  .mw-16-l {
-    max-width: 16em;
-  }
-  .mw-32-l {
-    max-width: 32em;
-  }
-  .mw-48-l {
-    max-width: 48em;
-  }
-  .mw-64-l {
-    max-width: 64em;
+  .w-auto-l {
+    width: auto;
   }
   .w-1-l {
     width: 1em;
@@ -2976,6 +3005,45 @@ textarea {
   .col-12-l {
     width: 100%;
   }
+  .mw-1-l {
+    max-width: 1em;
+  }
+  .mw-2-l {
+    max-width: 2em;
+  }
+  .mw-4-l {
+    max-width: 4em;
+  }
+  .mw-8-l {
+    max-width: 8em;
+  }
+  .mw-16-l {
+    max-width: 16em;
+  }
+  .mw-32-l {
+    max-width: 32em;
+  }
+  .mw-48-l {
+    max-width: 48em;
+  }
+  .mw-64-l {
+    max-width: 64em;
+  }
+  .h-auto-l {
+    height: auto;
+  }
+  .h-50-l {
+    height: 50%;
+  }
+  .h-100-l {
+    height: 100%;
+  }
+  .vh-50-l {
+    height: 50vh;
+  }
+  .vh-100-l {
+    height: 100vh;
+  }
   .mh-1-l {
     max-height: 1em;
   }
@@ -2999,24 +3067,6 @@ textarea {
   }
   .mh-64-l {
     max-height: 64em;
-  }
-  .h-10-l {
-    height: 10%;
-  }
-  .h-50-l {
-    height: 50%;
-  }
-  .h-100-l {
-    height: 100%;
-  }
-  .vh-10-l {
-    height: 10vh;
-  }
-  .vh-50-l {
-    height: 50vh;
-  }
-  .vh-100-l {
-    height: 100vh;
   }
   .measure-wide-l {
     max-width: 34em;
@@ -3580,5 +3630,20 @@ textarea {
   }
   .items-baseline-l {
     align-items: baseline;
+  }
+  .item-start-l {
+    align-self: flex-start;
+  }
+  .item-center-l {
+    align-self: center;
+  }
+  .item-end-l {
+    align-self: flex-end;
+  }
+  .item-stretch-l {
+    align-self: stretch;
+  }
+  .item-baseline-l {
+    align-self: baseline;
   }
 }
