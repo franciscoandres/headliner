@@ -391,6 +391,14 @@ textarea {
   font-family: Courier, Monaco, monospace;
 }
 
+.font-family-inherit {
+  font-family: inherit;
+}
+
+.font-size-inherit {
+  font-size: inherit;
+}
+
 .headline {
   font-size: 5em;
 }
@@ -1255,6 +1263,10 @@ textarea {
   z-index: 100;
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .black {
   color: #000;
 }
@@ -1345,10 +1357,6 @@ textarea {
 
 .border-black-90 {
   border-color: rgba(0, 0, 0, 0.9);
-}
-
-.bg-transparent {
-  background-color: transparent;
 }
 
 .bg-black {
