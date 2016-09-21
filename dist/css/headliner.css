@@ -78,11 +78,9 @@ textarea {
   height: auto;
   font-family: inherit;
   font-size: inherit;
-  padding: .5em 1em;
   margin: 0;
   text-decoration: none;
   vertical-align: middle;
-  transition: box-shadow .2s ease-in-out;
   -webkit-appearance: none;
 }
 
@@ -97,6 +95,10 @@ textarea {
 
 .list-none {
   list-style-type: none;
+}
+
+.border-none {
+  border: 0;
 }
 
 .border-all {
@@ -143,28 +145,20 @@ textarea {
   border-left-width: 0;
 }
 
-.border-none {
-  border: 0;
-}
-
 .rad1 {
-  border-radius: .5em;
+  border-radius: .125em;
 }
 
 .rad2 {
-  border-radius: 1em;
+  border-radius: .250em;
 }
 
 .rad3 {
-  border-radius: 2em;
+  border-radius: .5em;
 }
 
 .rad4 {
-  border-radius: 4em;
-}
-
-.rad5 {
-  border-radius: 8em;
+  border-radius: 1em;
 }
 
 .rounded-top {
@@ -549,24 +543,20 @@ textarea {
   -moz-osx-font-smoothing: grayscale;
   -moz-osx-font-smoothing-backface-visibility: hidden;
   -moz-osx-font-smoothing-transform: translateZ(0);
-  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-out;
 }
 
 .grow:hover, .grow:focus {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
-.glow {
-  transition: box-shadow .2s ease-in-out;
-}
-
-.glow:hover, .glow:focus {
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+.grow:active {
+  transform: scale(0.9);
 }
 
 .opacity {
   opacity: 1;
-  transition: opacity .2s ease-in-out;
+  transition: opacity .2s ease-out;
 }
 
 .opacity:hover, .opacity:focus {
