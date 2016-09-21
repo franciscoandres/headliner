@@ -567,6 +567,30 @@ textarea {
   cursor: pointer;
 }
 
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-repeat {
+  background-repeat: repeat;
+}
+
+.bg-repeat-x {
+  background-repeat: repeat-x;
+}
+
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+
+.bg-repeat-space {
+  background-repeat: space;
+}
+
+.bg-repeat-round {
+  background-repeat: round;
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -980,16 +1004,96 @@ textarea {
   top: 0;
 }
 
+.top-05 {
+  top: .5em;
+}
+
+.top-1 {
+  top: 1em;
+}
+
+.top-2 {
+  top: 2em;
+}
+
+.top-4 {
+  top: 4em;
+}
+
+.top-8 {
+  top: 8em;
+}
+
 .right-0 {
   right: 0;
+}
+
+.right-05 {
+  right: .5em;
+}
+
+.right-1 {
+  right: 1em;
+}
+
+.right-2 {
+  right: 2em;
+}
+
+.right-4 {
+  right: 4em;
+}
+
+.right-8 {
+  right: 8em;
 }
 
 .bottom-0 {
   bottom: 0;
 }
 
+.bottom-05 {
+  bottom: .5em;
+}
+
+.bottom-1 {
+  bottom: 1em;
+}
+
+.bottom-2 {
+  bottom: 2em;
+}
+
+.bottom-4 {
+  bottom: 4em;
+}
+
+.bottom-8 {
+  bottom: 8em;
+}
+
 .left-0 {
   left: 0;
+}
+
+.left-05 {
+  left: .5em;
+}
+
+.left-1 {
+  left: 1em;
+}
+
+.left-2 {
+  left: 2em;
+}
+
+.left-4 {
+  left: 4em;
+}
+
+.left-8 {
+  left: 8em;
 }
 
 .border-box {
@@ -2050,14 +2154,74 @@ textarea {
   .top-0-s {
     top: 0;
   }
+  .top-05-s {
+    top: .5em;
+  }
+  .top-1-s {
+    top: 1em;
+  }
+  .top-2-s {
+    top: 2em;
+  }
+  .top-4-s {
+    top: 4em;
+  }
+  .top-8-s {
+    top: 8em;
+  }
   .right-0-s {
     right: 0;
+  }
+  .right-05-s {
+    right: .5em;
+  }
+  .right-1-s {
+    right: 1em;
+  }
+  .right-2-s {
+    right: 2em;
+  }
+  .right-4-s {
+    right: 4em;
+  }
+  .right-8-s {
+    right: 8em;
   }
   .bottom-0-s {
     bottom: 0;
   }
+  .bottom-05-s {
+    bottom: .5em;
+  }
+  .bottom-1-s {
+    bottom: 1em;
+  }
+  .bottom-2-s {
+    bottom: 2em;
+  }
+  .bottom-4-s {
+    bottom: 4em;
+  }
+  .bottom-8-s {
+    bottom: 8em;
+  }
   .left-0-s {
     left: 0;
+  }
+  .left-05-s {
+    left: .5em;
+  }
+  .left-1-s {
+    left: 1em;
+  }
+  .left-2-s {
+    left: 2em;
+  }
+  .left-4-s {
+    left: 4em;
+  }
+  .left-8-s {
+    left: 8em;
   }
   .border-box-s {
     box-sizing: border-box;
@@ -2748,14 +2912,74 @@ textarea {
   .top-0-m {
     top: 0;
   }
+  .top-05-m {
+    top: .5em;
+  }
+  .top-1-m {
+    top: 1em;
+  }
+  .top-2-m {
+    top: 2em;
+  }
+  .top-4-m {
+    top: 4em;
+  }
+  .top-8-m {
+    top: 8em;
+  }
   .right-0-m {
     right: 0;
+  }
+  .right-05-m {
+    right: .5em;
+  }
+  .right-1-m {
+    right: 1em;
+  }
+  .right-2-m {
+    right: 2em;
+  }
+  .right-4-m {
+    right: 4em;
+  }
+  .right-8-m {
+    right: 8em;
   }
   .bottom-0-m {
     bottom: 0;
   }
+  .bottom-05-m {
+    bottom: .5em;
+  }
+  .bottom-1-m {
+    bottom: 1em;
+  }
+  .bottom-2-m {
+    bottom: 2em;
+  }
+  .bottom-4-m {
+    bottom: 4em;
+  }
+  .bottom-8-m {
+    bottom: 8em;
+  }
   .left-0-m {
     left: 0;
+  }
+  .left-05-m {
+    left: .5em;
+  }
+  .left-1-m {
+    left: 1em;
+  }
+  .left-2-m {
+    left: 2em;
+  }
+  .left-4-m {
+    left: 4em;
+  }
+  .left-8-m {
+    left: 8em;
   }
   .border-box-m {
     box-sizing: border-box;
@@ -3446,14 +3670,74 @@ textarea {
   .top-0-l {
     top: 0;
   }
+  .top-05-l {
+    top: .5em;
+  }
+  .top-1-l {
+    top: 1em;
+  }
+  .top-2-l {
+    top: 2em;
+  }
+  .top-4-l {
+    top: 4em;
+  }
+  .top-8-l {
+    top: 8em;
+  }
   .right-0-l {
     right: 0;
+  }
+  .right-05-l {
+    right: .5em;
+  }
+  .right-1-l {
+    right: 1em;
+  }
+  .right-2-l {
+    right: 2em;
+  }
+  .right-4-l {
+    right: 4em;
+  }
+  .right-8-l {
+    right: 8em;
   }
   .bottom-0-l {
     bottom: 0;
   }
+  .bottom-05-l {
+    bottom: .5em;
+  }
+  .bottom-1-l {
+    bottom: 1em;
+  }
+  .bottom-2-l {
+    bottom: 2em;
+  }
+  .bottom-4-l {
+    bottom: 4em;
+  }
+  .bottom-8-l {
+    bottom: 8em;
+  }
   .left-0-l {
     left: 0;
+  }
+  .left-05-l {
+    left: .5em;
+  }
+  .left-1-l {
+    left: 1em;
+  }
+  .left-2-l {
+    left: 2em;
+  }
+  .left-4-l {
+    left: 4em;
+  }
+  .left-8-l {
+    left: 8em;
   }
   .border-box-l {
     box-sizing: border-box;
