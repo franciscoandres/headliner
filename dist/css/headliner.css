@@ -382,6 +382,10 @@ textarea {
 }
 
 .headline {
+  font-size: 7em;
+}
+
+.gigant {
   font-size: 5em;
 }
 
@@ -1745,6 +1749,9 @@ textarea {
     max-width: 20em;
   }
   .headline-s {
+    font-size: 7em;
+  }
+  .gigant-s {
     font-size: 5em;
   }
   .big-s {
@@ -2503,6 +2510,9 @@ textarea {
     max-width: 20em;
   }
   .headline-m {
+    font-size: 7em;
+  }
+  .gigant-m {
     font-size: 5em;
   }
   .big-m {
@@ -3261,6 +3271,9 @@ textarea {
     max-width: 20em;
   }
   .headline-l {
+    font-size: 7em;
+  }
+  .gigant-l {
     font-size: 5em;
   }
   .big-l {
