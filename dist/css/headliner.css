@@ -301,6 +301,14 @@ textarea {
   max-width: 64em;
 }
 
+.mw-80 {
+  max-width: 80em;
+}
+
+.mw-90 {
+  max-width: 90em;
+}
+
 .h-auto {
   height: auto;
 }
@@ -1861,6 +1869,12 @@ textarea {
   .mw-64-s {
     max-width: 64em;
   }
+  .mw-80-s {
+    max-width: 80em;
+  }
+  .mw-90-s {
+    max-width: 90em;
+  }
   .h-auto-s {
     height: auto;
   }
@@ -2362,7 +2376,9 @@ textarea {
   .top-8-s {
     top: 8em;
   }
-  top: -.5em;
+  .top--05-s {
+    top: -.5em;
+  }
   .top--1-s {
     top: -1em;
   }
@@ -2728,6 +2744,12 @@ textarea {
   }
   .mw-64-m {
     max-width: 64em;
+  }
+  .mw-80-m {
+    max-width: 80em;
+  }
+  .mw-90-m {
+    max-width: 90em;
   }
   .h-auto-m {
     height: auto;
@@ -3598,6 +3620,12 @@ textarea {
   }
   .mw-64-l {
     max-width: 64em;
+  }
+  .mw-80-l {
+    max-width: 80em;
+  }
+  .mw-90-l {
+    max-width: 90em;
   }
   .h-auto-l {
     height: auto;
