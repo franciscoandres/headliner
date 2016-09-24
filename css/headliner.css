@@ -145,6 +145,10 @@ textarea {
   border-left-width: 0;
 }
 
+.rad0 {
+  border-radius: 0;
+}
+
 .rad1 {
   border-radius: .125em;
 }
