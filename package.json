@@ -2,7 +2,7 @@
   "name": "headliner",
   "version": "2.3.1",
   "description": "Headliner is an OOCSS tool",
-  "main": "index.js",
+  "main": "css/headliner.min.css",
   "scripts": {
     "server": "browser-sync start --server --files './*, css/*.css'",
     "sass": "node-sass --output-style expanded source/headliner.sass css/headliner.css",
