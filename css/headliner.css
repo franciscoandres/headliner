@@ -599,6 +599,15 @@ textarea {
   cursor: pointer;
 }
 
+.overlay .overlay-object {
+  opacity: 0;
+  transition: opacity .2s ease-in;
+}
+
+.overlay .overlay-object:hover, .overlay .overlay-object:focus, .overlay .overlay-object:active {
+  opacity: 1;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
