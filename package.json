@@ -6,7 +6,7 @@
   "scripts": {
     "server": "browser-sync start --server --files './*, css/*.css'",
     "sass": "node-sass --output-style expanded source/headliner.sass css/headliner.css",
-    "prefix": "postcss -u autoprefixer --autoprefixer.browsers '> 20%' -r css/headliner.css",
+    "prefix": "postcss -u autoprefixer --autoprefixer.browsers 'last 7 versions' -r css/headliner.css",
     "cmq": "mqpacker css/headliner.css css/headliner.css",
     "minify:css": "cleancss -o css/headliner.min.css css/headliner.css",
     "build:css": "npm run sass && npm run prefix && npm run cmq && npm run minify:css",
