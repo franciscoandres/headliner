@@ -1,6 +1,6 @@
 {
   "name": "headliner",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "description": "Headliner is an OOCSS tool",
   "main": "css/headliner.min.css",
   "scripts": {
