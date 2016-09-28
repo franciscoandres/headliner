@@ -451,6 +451,10 @@ textarea {
   font-size: .750em;
 }
 
+.normal {
+  font-weight: normal;
+}
+
 .fw1 {
   font-weight: 100;
 }
@@ -505,6 +509,10 @@ textarea {
 
 .bold {
   font-weight: bold;
+}
+
+.font-style-normal {
+  font-style: normal;
 }
 
 .italic {
