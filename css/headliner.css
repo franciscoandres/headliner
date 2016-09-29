@@ -656,7 +656,7 @@ textarea {
 }
 
 .bg-cover {
-  background-size: cover;
+  background-size: cover !important;
 }
 
 .bg-contain {
@@ -1245,7 +1245,7 @@ textarea {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .visible {
@@ -2206,7 +2206,7 @@ textarea {
     background-repeat: round;
   }
   .bg-cover-s {
-    background-size: cover;
+    background-size: cover !important;
   }
   .bg-contain-s {
     background-size: contain;
@@ -2656,7 +2656,7 @@ textarea {
     box-sizing: border-box;
   }
   .hidden-s {
-    display: none;
+    display: none !important;
   }
   .visible-s {
     opacity: 1;
@@ -3152,7 +3152,7 @@ textarea {
     background-repeat: round;
   }
   .bg-cover-m {
-    background-size: cover;
+    background-size: cover !important;
   }
   .bg-contain-m {
     background-size: contain;
@@ -3602,7 +3602,7 @@ textarea {
     box-sizing: border-box;
   }
   .hidden-m {
-    display: none;
+    display: none !important;
   }
   .visible-m {
     opacity: 1;
@@ -4098,7 +4098,7 @@ textarea {
     background-repeat: round;
   }
   .bg-cover-l {
-    background-size: cover;
+    background-size: cover !important;
   }
   .bg-contain-l {
     background-size: contain;
@@ -4548,7 +4548,7 @@ textarea {
     box-sizing: border-box;
   }
   .hidden-l {
-    display: none;
+    display: none !important;
   }
   .visible-l {
     opacity: 1;
