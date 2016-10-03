@@ -3,5 +3,5 @@
 Headliner is an OOCSS tool
 
 ## Todo
-  - ~~Color set~~
+  - Color set
   - Make modular components
