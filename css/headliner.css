@@ -603,13 +603,13 @@ textarea {
           transform: scale(0.9);
 }
 
-.opacity {
+.hover-opacity {
   opacity: 1;
   -webkit-transition: opacity .2s ease-out;
   transition: opacity .2s ease-out;
 }
 
-.opacity:hover, .opacity:focus {
+.hover-opacity:hover, .hover-opacity:focus {
   opacity: .700;
 }
 
@@ -1503,6 +1503,50 @@ textarea {
   -webkit-align-self: baseline;
       -ms-flex-item-align: baseline;
           align-self: baseline;
+}
+
+.opacity-05 {
+  opacity: .05;
+}
+
+.opacity-10 {
+  opacity: .1;
+}
+
+.opacity-20 {
+  opacity: .2;
+}
+
+.opacity-30 {
+  opacity: .3;
+}
+
+.opacity-40 {
+  opacity: .4;
+}
+
+.opacity-50 {
+  opacity: .5;
+}
+
+.opacity-60 {
+  opacity: .6;
+}
+
+.opacity-70 {
+  opacity: .7;
+}
+
+.opacity-80 {
+  opacity: .8;
+}
+
+.opacity-90 {
+  opacity: .9;
+}
+
+.opacity-100 {
+  opacity: 1;
 }
 
 .cf:after {
