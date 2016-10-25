@@ -76,6 +76,10 @@ textarea {
   font-size: inherit;
 }
 
+.input-reset {
+  -webkit-appearance: none;
+}
+
 .button {
   background-color: transparent;
   border: 1px solid currentColor;
@@ -104,7 +108,11 @@ textarea {
 }
 
 .b-none {
-  border: 0;
+  border-width: 0;
+}
+
+.b-hidden {
+  border-style: hidden;
 }
 
 .b-all {
