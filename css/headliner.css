@@ -76,6 +76,10 @@ textarea {
   font-size: inherit;
 }
 
+.input-reset {
+  -webkit-appearance: none;
+}
+
 .button {
   background-color: transparent;
   border: 1px solid currentColor;
