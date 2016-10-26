@@ -33,30 +33,30 @@ svg {
 
 .link {
   text-decoration: none;
-  -webkit-transition: color .15s ease;
-  transition: color .15s ease;
+  -webkit-transition: color 0.15s ease;
+  transition: color 0.15s ease;
   cursor: pointer;
 }
 
 .link:link,
 .link:visited {
-  -webkit-transition: color .15s ease;
-  transition: color .15s ease;
+  -webkit-transition: color 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 .link:hover {
-  -webkit-transition: color .15s ease;
-  transition: color .15s ease;
+  -webkit-transition: color 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 .link:active {
-  -webkit-transition: color .15s ease;
-  transition: color .15s ease;
+  -webkit-transition: color 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 .link:focus {
-  -webkit-transition: color .15s ease;
-  transition: color .15s ease;
+  -webkit-transition: color 0.15s ease;
+  transition: color 0.15s ease;
 }
 
 label,
@@ -74,10 +74,6 @@ textarea {
   border: 1px solid;
   font-family: inherit;
   font-size: inherit;
-}
-
-.input-reset {
-  -webkit-appearance: none;
 }
 
 .button {
@@ -160,11 +156,11 @@ textarea {
 }
 
 .b-wide {
-  border-width: .125em;
+  border-width: 0.125em;
 }
 
 .b-extra {
-  border-width: .250em;
+  border-width: 0.25em;
 }
 
 .b-top-0 {
@@ -188,15 +184,15 @@ textarea {
 }
 
 .rad1 {
-  border-radius: .125em;
+  border-radius: 0.125em;
 }
 
 .rad2 {
-  border-radius: .250em;
+  border-radius: 0.25em;
 }
 
 .rad3 {
-  border-radius: .5em;
+  border-radius: 0.5em;
 }
 
 .rad4 {
@@ -456,11 +452,11 @@ textarea {
 }
 
 .f1 {
-  font-size: 2.800em;
+  font-size: 2.8em;
 }
 
 .f2 {
-  font-size: 2.250em;
+  font-size: 2.25em;
 }
 
 .f3 {
@@ -468,7 +464,7 @@ textarea {
 }
 
 .f4 {
-  font-size: 1.500em;
+  font-size: 1.5em;
 }
 
 .f5 {
@@ -476,11 +472,11 @@ textarea {
 }
 
 .f6 {
-  font-size: .875em;
+  font-size: 0.875em;
 }
 
 .small {
-  font-size: .750em;
+  font-size: 0.75em;
 }
 
 .normal {
@@ -524,7 +520,7 @@ textarea {
 }
 
 .muted {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .lead-normal {
@@ -590,11 +586,11 @@ textarea {
 }
 
 .tracked {
-  letter-spacing: .16em;
+  letter-spacing: 0.16em;
 }
 
 .tracked-wide {
-  letter-spacing: .25em;
+  letter-spacing: 0.25em;
 }
 
 .text-center {
@@ -615,12 +611,14 @@ textarea {
 
 .grow {
   -moz-osx-font-smoothing: grayscale;
-  -moz-osx-font-smoothing-backface-visibility: hidden;
-  -moz-osx-font-smoothing-transform: translateZ(0);
-  -webkit-transition: -webkit-transform .2s ease-out;
-  transition: -webkit-transform .2s ease-out;
-  transition: transform .2s ease-out;
-  transition: transform .2s ease-out, -webkit-transform .2s ease-out;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
 }
 
 .grow:hover, .grow:focus {
@@ -636,18 +634,18 @@ textarea {
 }
 
 .bg-animate:hover, .bg-animate:focus {
-  -webkit-transition: background-color .2s ease;
-  transition: background-color .2s ease;
+  -webkit-transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 .hover-opacity {
   opacity: 1;
-  -webkit-transition: opacity .2s ease-out;
-  transition: opacity .2s ease-out;
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
 }
 
 .hover-opacity:hover, .hover-opacity:focus {
-  opacity: .700;
+  opacity: 0.7;
 }
 
 .hover-underline:hover {
@@ -660,8 +658,8 @@ textarea {
 
 .overlay .overlay-object {
   opacity: 0;
-  -webkit-transition: opacity .2s ease-in;
-  transition: opacity .2s ease-in;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
 }
 
 .overlay .overlay-object:hover, .overlay .overlay-object:focus, .overlay .overlay-object:active {
@@ -734,11 +732,11 @@ textarea {
 }
 
 .p1 {
-  padding: .25em;
+  padding: 0.25em;
 }
 
 .p2 {
-  padding: .5em;
+  padding: 0.5em;
 }
 
 .p3 {
@@ -763,13 +761,13 @@ textarea {
 }
 
 .ph1 {
-  padding-left: .25em;
-  padding-right: .25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
 }
 
 .ph2 {
-  padding-left: .5em;
-  padding-right: .5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .ph3 {
@@ -798,13 +796,13 @@ textarea {
 }
 
 .ph1 {
-  padding-left: .25em;
-  padding-right: .25em;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
 }
 
 .pv2 {
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 .pv3 {
@@ -832,11 +830,11 @@ textarea {
 }
 
 .pt1 {
-  padding-top: .25em;
+  padding-top: 0.25em;
 }
 
 .pt2 {
-  padding-top: .5em;
+  padding-top: 0.5em;
 }
 
 .pt3 {
@@ -860,11 +858,11 @@ textarea {
 }
 
 .pr1 {
-  padding-right: .25em;
+  padding-right: 0.25em;
 }
 
 .pr2 {
-  padding-right: .5em;
+  padding-right: 0.5em;
 }
 
 .pr3 {
@@ -888,11 +886,11 @@ textarea {
 }
 
 .pb1 {
-  padding-bottom: .25em;
+  padding-bottom: 0.25em;
 }
 
 .pb2 {
-  padding-bottom: .5em;
+  padding-bottom: 0.5em;
 }
 
 .pb3 {
@@ -916,11 +914,11 @@ textarea {
 }
 
 .pl1 {
-  padding-left: .25em;
+  padding-left: 0.25em;
 }
 
 .pl2 {
-  padding-left: .5em;
+  padding-left: 0.5em;
 }
 
 .pl3 {
@@ -944,11 +942,11 @@ textarea {
 }
 
 .m1 {
-  margin: .25em;
+  margin: 0.25em;
 }
 
 .m2 {
-  margin: .5em;
+  margin: 0.5em;
 }
 
 .m3 {
@@ -973,13 +971,13 @@ textarea {
 }
 
 .mh1 {
-  margin-left: .25em;
-  margin-right: .25em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
 }
 
 .mh2 {
-  margin-left: .5em;
-  margin-right: .5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 .mh3 {
@@ -1008,13 +1006,13 @@ textarea {
 }
 
 .mv1 {
-  margin-top: .25em;
-  margin-bottom: .25em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 .mv2 {
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 .mv3 {
@@ -1042,11 +1040,11 @@ textarea {
 }
 
 .mt1 {
-  margin-top: .25em;
+  margin-top: 0.25em;
 }
 
 .mt2 {
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .mt3 {
@@ -1070,11 +1068,11 @@ textarea {
 }
 
 .mr1 {
-  margin-right: .25em;
+  margin-right: 0.25em;
 }
 
 .mr2 {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 
 .mr3 {
@@ -1098,11 +1096,11 @@ textarea {
 }
 
 .mb1 {
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
 }
 
 .mb2 {
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
 }
 
 .mb3 {
@@ -1126,11 +1124,11 @@ textarea {
 }
 
 .ml1 {
-  margin-left: .25em;
+  margin-left: 0.25em;
 }
 
 .ml2 {
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 
 .ml3 {
@@ -1540,43 +1538,43 @@ textarea {
 }
 
 .opacity-05 {
-  opacity: .05;
+  opacity: 0.05;
 }
 
 .opacity-10 {
-  opacity: .1;
+  opacity: 0.1;
 }
 
 .opacity-20 {
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .opacity-30 {
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .opacity-40 {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .opacity-50 {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .opacity-60 {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .opacity-70 {
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .opacity-80 {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .opacity-90 {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 .opacity-100 {
@@ -2513,25 +2511,25 @@ textarea {
     font-size: 4em;
   }
   .f1-s {
-    font-size: 2.800em;
+    font-size: 2.8em;
   }
   .f2-s {
-    font-size: 2.250em;
+    font-size: 2.25em;
   }
   .f3-s {
     font-size: 1.875em;
   }
   .f4-s {
-    font-size: 1.500em;
+    font-size: 1.5em;
   }
   .f5-s {
     font-size: 1.125em;
   }
   .f6-s {
-    font-size: .875em;
+    font-size: 0.875em;
   }
   .small-s {
-    font-size: .750em;
+    font-size: 0.75em;
   }
   .fw1-s {
     font-weight: 100;
@@ -2561,7 +2559,7 @@ textarea {
     font-weight: 900;
   }
   .muted-s {
-    opacity: .5;
+    opacity: 0.5;
   }
   .lead-normal-s {
     line-height: 1;
@@ -2608,10 +2606,10 @@ textarea {
     text-overflow: ellipsis;
   }
   .tracked-s {
-    letter-spacing: .16em;
+    letter-spacing: 0.16em;
   }
   .tracked-wide-s {
-    letter-spacing: .25em;
+    letter-spacing: 0.25em;
   }
   .text-center-s {
     text-align: center;
@@ -2676,10 +2674,10 @@ textarea {
     padding: 0;
   }
   .p1-s {
-    padding: .25em;
+    padding: 0.25em;
   }
   .p2-s {
-    padding: .5em;
+    padding: 0.5em;
   }
   .p3-s {
     padding: 1em;
@@ -2698,12 +2696,12 @@ textarea {
     padding-right: 0;
   }
   .ph1-s {
-    padding-left: .25em;
-    padding-right: .25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
   .ph2-s {
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   .ph3-s {
     padding-left: 1em;
@@ -2726,12 +2724,12 @@ textarea {
     padding-bottom: 0;
   }
   .ph1-s {
-    padding-left: .25em;
-    padding-right: .25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
   .pv2-s {
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
   .pv3-s {
     padding-top: 1em;
@@ -2753,10 +2751,10 @@ textarea {
     padding-top: 0;
   }
   .pt1-s {
-    padding-top: .25em;
+    padding-top: 0.25em;
   }
   .pt2-s {
-    padding-top: .5em;
+    padding-top: 0.5em;
   }
   .pt3-s {
     padding-top: 1em;
@@ -2774,10 +2772,10 @@ textarea {
     padding-right: 0;
   }
   .pr1-s {
-    padding-right: .25em;
+    padding-right: 0.25em;
   }
   .pr2-s {
-    padding-right: .5em;
+    padding-right: 0.5em;
   }
   .pr3-s {
     padding-right: 1em;
@@ -2795,10 +2793,10 @@ textarea {
     padding-bottom: 0;
   }
   .pb1-s {
-    padding-bottom: .25em;
+    padding-bottom: 0.25em;
   }
   .pb2-s {
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
   }
   .pb3-s {
     padding-bottom: 1em;
@@ -2816,10 +2814,10 @@ textarea {
     padding-left: 0;
   }
   .pl1-s {
-    padding-left: .25em;
+    padding-left: 0.25em;
   }
   .pl2-s {
-    padding-left: .5em;
+    padding-left: 0.5em;
   }
   .pl3-s {
     padding-left: 1em;
@@ -2837,10 +2835,10 @@ textarea {
     margin: 0;
   }
   .m1-s {
-    margin: .25em;
+    margin: 0.25em;
   }
   .m2-s {
-    margin: .5em;
+    margin: 0.5em;
   }
   .m3-s {
     margin: 1em;
@@ -2859,12 +2857,12 @@ textarea {
     margin-right: 0;
   }
   .mh1-s {
-    margin-left: .25em;
-    margin-right: .25em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
   }
   .mh2-s {
-    margin-left: .5em;
-    margin-right: .5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
   .mh3-s {
     margin-left: 1em;
@@ -2887,12 +2885,12 @@ textarea {
     margin-bottom: 0;
   }
   .mv1-s {
-    margin-top: .25em;
-    margin-bottom: .25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
   }
   .mv2-s {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   .mv3-s {
     margin-top: 1em;
@@ -2914,10 +2912,10 @@ textarea {
     margin-top: 0;
   }
   .mt1-s {
-    margin-top: .25em;
+    margin-top: 0.25em;
   }
   .mt2-s {
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
   .mt3-s {
     margin-top: 1em;
@@ -2935,10 +2933,10 @@ textarea {
     margin-right: 0;
   }
   .mr1-s {
-    margin-right: .25em;
+    margin-right: 0.25em;
   }
   .mr2-s {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
   .mr3-s {
     margin-right: 1em;
@@ -2956,10 +2954,10 @@ textarea {
     margin-bottom: 0;
   }
   .mb1-s {
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
   }
   .mb2-s {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   .mb3-s {
     margin-bottom: 1em;
@@ -2977,10 +2975,10 @@ textarea {
     margin-left: 0;
   }
   .ml1-s {
-    margin-left: .25em;
+    margin-left: 0.25em;
   }
   .ml2-s {
-    margin-left: .5em;
+    margin-left: 0.5em;
   }
   .ml3-s {
     margin-left: 1em;
@@ -3456,25 +3454,25 @@ textarea {
     font-size: 4em;
   }
   .f1-m {
-    font-size: 2.800em;
+    font-size: 2.8em;
   }
   .f2-m {
-    font-size: 2.250em;
+    font-size: 2.25em;
   }
   .f3-m {
     font-size: 1.875em;
   }
   .f4-m {
-    font-size: 1.500em;
+    font-size: 1.5em;
   }
   .f5-m {
     font-size: 1.125em;
   }
   .f6-m {
-    font-size: .875em;
+    font-size: 0.875em;
   }
   .small-m {
-    font-size: .750em;
+    font-size: 0.75em;
   }
   .fw1-m {
     font-weight: 100;
@@ -3504,7 +3502,7 @@ textarea {
     font-weight: 900;
   }
   .muted-m {
-    opacity: .5;
+    opacity: 0.5;
   }
   .lead-normal-m {
     line-height: 1;
@@ -3551,10 +3549,10 @@ textarea {
     text-overflow: ellipsis;
   }
   .tracked-m {
-    letter-spacing: .16em;
+    letter-spacing: 0.16em;
   }
   .tracked-wide-m {
-    letter-spacing: .25em;
+    letter-spacing: 0.25em;
   }
   .text-center-m {
     text-align: center;
@@ -3619,10 +3617,10 @@ textarea {
     padding: 0;
   }
   .p1-m {
-    padding: .25em;
+    padding: 0.25em;
   }
   .p2-m {
-    padding: .5em;
+    padding: 0.5em;
   }
   .p3-m {
     padding: 1em;
@@ -3641,12 +3639,12 @@ textarea {
     padding-right: 0;
   }
   .ph1-m {
-    padding-left: .25em;
-    padding-right: .25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
   .ph2-m {
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   .ph3-m {
     padding-left: 1em;
@@ -3669,12 +3667,12 @@ textarea {
     padding-bottom: 0;
   }
   .ph1-m {
-    padding-left: .25em;
-    padding-right: .25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
   .pv2-m {
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
   .pv3-m {
     padding-top: 1em;
@@ -3696,10 +3694,10 @@ textarea {
     padding-top: 0;
   }
   .pt1-m {
-    padding-top: .25em;
+    padding-top: 0.25em;
   }
   .pt2-m {
-    padding-top: .5em;
+    padding-top: 0.5em;
   }
   .pt3-m {
     padding-top: 1em;
@@ -3717,10 +3715,10 @@ textarea {
     padding-right: 0;
   }
   .pr1-m {
-    padding-right: .25em;
+    padding-right: 0.25em;
   }
   .pr2-m {
-    padding-right: .5em;
+    padding-right: 0.5em;
   }
   .pr3-m {
     padding-right: 1em;
@@ -3738,10 +3736,10 @@ textarea {
     padding-bottom: 0;
   }
   .pb1-m {
-    padding-bottom: .25em;
+    padding-bottom: 0.25em;
   }
   .pb2-m {
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
   }
   .pb3-m {
     padding-bottom: 1em;
@@ -3759,10 +3757,10 @@ textarea {
     padding-left: 0;
   }
   .pl1-m {
-    padding-left: .25em;
+    padding-left: 0.25em;
   }
   .pl2-m {
-    padding-left: .5em;
+    padding-left: 0.5em;
   }
   .pl3-m {
     padding-left: 1em;
@@ -3780,10 +3778,10 @@ textarea {
     margin: 0;
   }
   .m1-m {
-    margin: .25em;
+    margin: 0.25em;
   }
   .m2-m {
-    margin: .5em;
+    margin: 0.5em;
   }
   .m3-m {
     margin: 1em;
@@ -3802,12 +3800,12 @@ textarea {
     margin-right: 0;
   }
   .mh1-m {
-    margin-left: .25em;
-    margin-right: .25em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
   }
   .mh2-m {
-    margin-left: .5em;
-    margin-right: .5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
   .mh3-m {
     margin-left: 1em;
@@ -3830,12 +3828,12 @@ textarea {
     margin-bottom: 0;
   }
   .mv1-m {
-    margin-top: .25em;
-    margin-bottom: .25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
   }
   .mv2-m {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   .mv3-m {
     margin-top: 1em;
@@ -3857,10 +3855,10 @@ textarea {
     margin-top: 0;
   }
   .mt1-m {
-    margin-top: .25em;
+    margin-top: 0.25em;
   }
   .mt2-m {
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
   .mt3-m {
     margin-top: 1em;
@@ -3878,10 +3876,10 @@ textarea {
     margin-right: 0;
   }
   .mr1-m {
-    margin-right: .25em;
+    margin-right: 0.25em;
   }
   .mr2-m {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
   .mr3-m {
     margin-right: 1em;
@@ -3899,10 +3897,10 @@ textarea {
     margin-bottom: 0;
   }
   .mb1-m {
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
   }
   .mb2-m {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   .mb3-m {
     margin-bottom: 1em;
@@ -3920,10 +3918,10 @@ textarea {
     margin-left: 0;
   }
   .ml1-m {
-    margin-left: .25em;
+    margin-left: 0.25em;
   }
   .ml2-m {
-    margin-left: .5em;
+    margin-left: 0.5em;
   }
   .ml3-m {
     margin-left: 1em;
@@ -4399,25 +4397,25 @@ textarea {
     font-size: 4em;
   }
   .f1-l {
-    font-size: 2.800em;
+    font-size: 2.8em;
   }
   .f2-l {
-    font-size: 2.250em;
+    font-size: 2.25em;
   }
   .f3-l {
     font-size: 1.875em;
   }
   .f4-l {
-    font-size: 1.500em;
+    font-size: 1.5em;
   }
   .f5-l {
     font-size: 1.125em;
   }
   .f6-l {
-    font-size: .875em;
+    font-size: 0.875em;
   }
   .small-l {
-    font-size: .750em;
+    font-size: 0.75em;
   }
   .fw1-l {
     font-weight: 100;
@@ -4447,7 +4445,7 @@ textarea {
     font-weight: 900;
   }
   .muted-l {
-    opacity: .5;
+    opacity: 0.5;
   }
   .lead-normal-l {
     line-height: 1;
@@ -4494,10 +4492,10 @@ textarea {
     text-overflow: ellipsis;
   }
   .tracked-l {
-    letter-spacing: .16em;
+    letter-spacing: 0.16em;
   }
   .tracked-wide-l {
-    letter-spacing: .25em;
+    letter-spacing: 0.25em;
   }
   .text-center-l {
     text-align: center;
@@ -4562,10 +4560,10 @@ textarea {
     padding: 0;
   }
   .p1-l {
-    padding: .25em;
+    padding: 0.25em;
   }
   .p2-l {
-    padding: .5em;
+    padding: 0.5em;
   }
   .p3-l {
     padding: 1em;
@@ -4584,12 +4582,12 @@ textarea {
     padding-right: 0;
   }
   .ph1-l {
-    padding-left: .25em;
-    padding-right: .25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
   .ph2-l {
-    padding-left: .5em;
-    padding-right: .5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   .ph3-l {
     padding-left: 1em;
@@ -4612,12 +4610,12 @@ textarea {
     padding-bottom: 0;
   }
   .ph1-l {
-    padding-left: .25em;
-    padding-right: .25em;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
   }
   .pv2-l {
-    padding-top: .5em;
-    padding-bottom: .5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
   .pv3-l {
     padding-top: 1em;
@@ -4639,10 +4637,10 @@ textarea {
     padding-top: 0;
   }
   .pt1-l {
-    padding-top: .25em;
+    padding-top: 0.25em;
   }
   .pt2-l {
-    padding-top: .5em;
+    padding-top: 0.5em;
   }
   .pt3-l {
     padding-top: 1em;
@@ -4660,10 +4658,10 @@ textarea {
     padding-right: 0;
   }
   .pr1-l {
-    padding-right: .25em;
+    padding-right: 0.25em;
   }
   .pr2-l {
-    padding-right: .5em;
+    padding-right: 0.5em;
   }
   .pr3-l {
     padding-right: 1em;
@@ -4681,10 +4679,10 @@ textarea {
     padding-bottom: 0;
   }
   .pb1-l {
-    padding-bottom: .25em;
+    padding-bottom: 0.25em;
   }
   .pb2-l {
-    padding-bottom: .5em;
+    padding-bottom: 0.5em;
   }
   .pb3-l {
     padding-bottom: 1em;
@@ -4702,10 +4700,10 @@ textarea {
     padding-left: 0;
   }
   .pl1-l {
-    padding-left: .25em;
+    padding-left: 0.25em;
   }
   .pl2-l {
-    padding-left: .5em;
+    padding-left: 0.5em;
   }
   .pl3-l {
     padding-left: 1em;
@@ -4723,10 +4721,10 @@ textarea {
     margin: 0;
   }
   .m1-l {
-    margin: .25em;
+    margin: 0.25em;
   }
   .m2-l {
-    margin: .5em;
+    margin: 0.5em;
   }
   .m3-l {
     margin: 1em;
@@ -4745,12 +4743,12 @@ textarea {
     margin-right: 0;
   }
   .mh1-l {
-    margin-left: .25em;
-    margin-right: .25em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
   }
   .mh2-l {
-    margin-left: .5em;
-    margin-right: .5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
   }
   .mh3-l {
     margin-left: 1em;
@@ -4773,12 +4771,12 @@ textarea {
     margin-bottom: 0;
   }
   .mv1-l {
-    margin-top: .25em;
-    margin-bottom: .25em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
   }
   .mv2-l {
-    margin-top: .5em;
-    margin-bottom: .5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
   .mv3-l {
     margin-top: 1em;
@@ -4800,10 +4798,10 @@ textarea {
     margin-top: 0;
   }
   .mt1-l {
-    margin-top: .25em;
+    margin-top: 0.25em;
   }
   .mt2-l {
-    margin-top: .5em;
+    margin-top: 0.5em;
   }
   .mt3-l {
     margin-top: 1em;
@@ -4821,10 +4819,10 @@ textarea {
     margin-right: 0;
   }
   .mr1-l {
-    margin-right: .25em;
+    margin-right: 0.25em;
   }
   .mr2-l {
-    margin-right: .5em;
+    margin-right: 0.5em;
   }
   .mr3-l {
     margin-right: 1em;
@@ -4842,10 +4840,10 @@ textarea {
     margin-bottom: 0;
   }
   .mb1-l {
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
   }
   .mb2-l {
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
   .mb3-l {
     margin-bottom: 1em;
@@ -4863,10 +4861,10 @@ textarea {
     margin-left: 0;
   }
   .ml1-l {
-    margin-left: .25em;
+    margin-left: 0.25em;
   }
   .ml2-l {
-    margin-left: .5em;
+    margin-left: 0.5em;
   }
   .ml3-l {
     margin-left: 1em;

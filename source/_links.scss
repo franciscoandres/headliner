@@ -1,0 +1,22 @@
+.link {
+  text-decoration: none;
+  transition: color 0.15s ease;
+  cursor: pointer;
+}
+
+.link:link,
+.link:visited {
+  transition: color 0.15s ease;
+}
+
+.link:hover {
+  transition: color 0.15s ease;
+}
+
+.link:active {
+  transition: color 0.15s ease;
+}
+
+.link:focus {
+  transition: color 0.15s ease;
+}

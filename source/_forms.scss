@@ -1,0 +1,16 @@
+label,
+input,
+select,
+textarea {
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.input,
+.select,
+.textarea {
+  background: transparent;
+  border: 1px solid;
+  font-family: inherit;
+  font-size: inherit;
+}
