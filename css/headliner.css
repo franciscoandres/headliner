@@ -609,6 +609,10 @@ textarea {
   text-overflow: ellipsis;
 }
 
+.tracked-normal {
+  letter-spacing: normal;
+}
+
 .tracked {
   letter-spacing: 0.16em;
 }
@@ -2664,6 +2668,9 @@ textarea {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .tracked-normal-s {
+    letter-spacing: normal;
+  }
   .tracked-s {
     letter-spacing: 0.16em;
   }
@@ -3622,6 +3629,9 @@ textarea {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .tracked-normal-m {
+    letter-spacing: normal;
+  }
   .tracked-m {
     letter-spacing: 0.16em;
   }
@@ -4579,6 +4589,9 @@ textarea {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .tracked-normal-l {
+    letter-spacing: normal;
   }
   .tracked-l {
     letter-spacing: 0.16em;
