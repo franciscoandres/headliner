@@ -1,5 +1,17 @@
 //
 
+// Media queries
+
+//
+
+$breakpoints: (
+	"small": "@media screen and (min-width: 30em)",
+	"medium": "@media screen and (min-width: 30em) and (max-width: 60em)",
+	"large": "@media screen and (min-width: 60em)"
+);
+
+//
+
 // Colors
 
 //
