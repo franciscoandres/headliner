@@ -1541,50 +1541,6 @@ textarea {
           align-self: baseline;
 }
 
-.opacity-05 {
-  opacity: 0.05;
-}
-
-.opacity-10 {
-  opacity: 0.1;
-}
-
-.opacity-20 {
-  opacity: 0.2;
-}
-
-.opacity-30 {
-  opacity: 0.3;
-}
-
-.opacity-40 {
-  opacity: 0.4;
-}
-
-.opacity-50 {
-  opacity: 0.5;
-}
-
-.opacity-60 {
-  opacity: 0.6;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
-.opacity-80 {
-  opacity: 0.8;
-}
-
-.opacity-90 {
-  opacity: 0.9;
-}
-
-.opacity-100 {
-  opacity: 1;
-}
-
 .cf:after {
   content: " ";
   display: block;
@@ -1633,6 +1589,58 @@ textarea {
   left: 0;
   width: 100%;
   z-index: 100;
+}
+
+.opacity-05 {
+  opacity: 0.05;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.shadow-1 {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.75);
+}
+
+.shadow-2 {
+  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.75);
 }
 
 .bg-transparent {
