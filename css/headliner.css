@@ -823,9 +823,9 @@ textarea {
   padding-bottom: 0;
 }
 
-.ph1 {
-  padding-left: 0.25em;
-  padding-right: 0.25em;
+.pv1 {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
 }
 
 .pv2 {
@@ -2789,9 +2789,9 @@ textarea {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .ph1-s {
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+  .pv1-s {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
   }
   .pv2-s {
     padding-top: 0.5em;
@@ -3750,9 +3750,9 @@ textarea {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .ph1-m {
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+  .pv1-m {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
   }
   .pv2-m {
     padding-top: 0.5em;
@@ -4711,9 +4711,9 @@ textarea {
     padding-top: 0;
     padding-bottom: 0;
   }
-  .ph1-l {
-    padding-left: 0.25em;
-    padding-right: 0.25em;
+  .pv1-l {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
   }
   .pv2-l {
     padding-top: 0.5em;
