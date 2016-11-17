@@ -1803,6 +1803,10 @@ textarea {
   color: #000;
 }
 
+.aqua {
+  color: #33FFE3;
+}
+
 .yellow {
   color: #ffec1a;
 }
@@ -1977,6 +1981,10 @@ textarea {
 
 .b-black {
   border-color: #000;
+}
+
+.b-aqua {
+  border-color: #33FFE3;
 }
 
 .b-yellow {
@@ -2155,6 +2163,10 @@ textarea {
   background-color: #000;
 }
 
+.bg-aqua {
+  background-color: #33FFE3;
+}
+
 .bg-yellow {
   background-color: #ffec1a;
 }
@@ -2251,6 +2263,10 @@ textarea {
   color: #000;
 }
 
+.hover-aqua:hover, .hover-aqua:focus {
+  color: #33FFE3;
+}
+
 .hover-yellow:hover, .hover-yellow:focus {
   color: #ffec1a;
 }
@@ -2345,6 +2361,10 @@ textarea {
 
 .hover-bg-black:hover, .hover-bg-black:focus {
   background-color: #000;
+}
+
+.hover-bg-aqua:hover, .hover-bg-aqua:focus {
+  background-color: #33FFE3;
 }
 
 .hover-bg-yellow:hover, .hover-bg-yellow:focus {
