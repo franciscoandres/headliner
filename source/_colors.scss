@@ -128,6 +128,10 @@
   color: $black;
 }
 
+.aqua {
+  color: $aqua;
+}
+
 .yellow {
   color: $yellow;
 }
@@ -308,6 +312,10 @@
 
 .b-black {
   border-color: $black;
+}
+
+.b-aqua {
+  border-color: $aqua;
 }
 
 .b-yellow {
@@ -492,6 +500,10 @@
   background-color: $black;
 }
 
+.bg-aqua {
+  background-color: $aqua;
+}
+
 .bg-yellow {
   background-color: $yellow;
 }
@@ -618,6 +630,13 @@
   &:hover,
   &:focus {
     color: $black;
+  }
+}
+
+.hover-aqua {
+  &:hover,
+  &:focus {
+    color: $aqua;
   }
 }
 
@@ -788,6 +807,13 @@
   &:hover,
   &:focus {
     background-color: $black;
+  }
+}
+
+.hover-bg-aqua {
+  &:hover,
+  &:focus {
+    background-color: $aqua;
   }
 }
 
