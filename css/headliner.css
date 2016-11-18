@@ -1660,23 +1660,43 @@ textarea {
 }
 
 .shadow-all {
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.7);
 }
 
 .shadow-rb {
-  box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.7);
 }
 
 .shadow-lb {
-  box-shadow: -2px 4px 10px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: -2px 4px 10px 1px rgba(0, 0, 0, 0.7);
 }
 
 .shadow-rt {
-  box-shadow: 2px -4px 10px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 2px -4px 10px 1px rgba(0, 0, 0, 0.7);
 }
 
 .shadow-lt {
-  box-shadow: -2px -4px 10px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: -2px -4px 10px 1px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-all {
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-rb {
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-lb {
+  text-shadow: -1px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-rt {
+  text-shadow: 1px -2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.text-shadow-lt {
+  text-shadow: -1px -2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .bg-transparent {
