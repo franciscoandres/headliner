@@ -155,10 +155,6 @@ textarea {
   border-style: solid;
 }
 
-.b-none {
-  border-style: none;
-}
-
 .b-wide {
   border-width: 0.125em;
 }
