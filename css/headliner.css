@@ -121,22 +121,22 @@ textarea {
 
 .b-top {
   border-top-style: solid;
-  border-width: 1px;
+  border-top-width: 1px;
 }
 
 .b-right {
   border-right-style: solid;
-  border-width: 1px;
+  border-right-width: 1px;
 }
 
 .b-bottom {
   border-bottom-style: solid;
-  border-width: 1px;
+  border-bottom-width: 1px;
 }
 
 .b-left {
   border-left-style: solid;
-  border-width: 1px;
+  border-left-width: 1px;
 }
 
 .b-dotted {
