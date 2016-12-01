@@ -279,6 +279,10 @@ textarea {
   width: 40%;
 }
 
+.w-45 {
+  width: 45%;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -1582,6 +1586,20 @@ textarea {
           order: 3;
 }
 
+.order-4 {
+  -webkit-box-ordinal-group: 5;
+  -webkit-order: 4;
+      -ms-flex-order: 4;
+          order: 4;
+}
+
+.order-5 {
+  -webkit-box-ordinal-group: 6;
+  -webkit-order: 5;
+      -ms-flex-order: 5;
+          order: 5;
+}
+
 .order-99 {
   -webkit-box-ordinal-group: 100;
   -webkit-order: 99;
@@ -1701,26 +1719,6 @@ textarea {
 
 .shadow-lt {
   box-shadow: -2px -4px 10px 1px rgba(0, 0, 0, 0.7);
-}
-
-.text-shadow-all {
-  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.7);
-}
-
-.text-shadow-rb {
-  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-.text-shadow-lb {
-  text-shadow: -1px 2px 4px rgba(0, 0, 0, 0.7);
-}
-
-.text-shadow-rt {
-  text-shadow: 1px -2px 4px rgba(0, 0, 0, 0.7);
-}
-
-.text-shadow-lt {
-  text-shadow: -1px -2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .bg-transparent {
@@ -2513,6 +2511,9 @@ textarea {
   }
   .w-40-s {
     width: 40%;
+  }
+  .w-45-s {
+    width: 45%;
   }
   .w-50-s {
     width: 50%;
@@ -3448,6 +3449,18 @@ textarea {
     -ms-flex-order: 3;
     order: 3;
   }
+  .order-4-s {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .order-5-s {
+    -webkit-box-ordinal-group: 6;
+    -webkit-order: 5;
+    -ms-flex-order: 5;
+    order: 5;
+  }
   .order-99-s {
     -webkit-box-ordinal-group: 100;
     -webkit-order: 99;
@@ -3498,6 +3511,9 @@ textarea {
   }
   .w-40-m {
     width: 40%;
+  }
+  .w-45-m {
+    width: 45%;
   }
   .w-50-m {
     width: 50%;
@@ -4433,6 +4449,18 @@ textarea {
     -ms-flex-order: 3;
     order: 3;
   }
+  .order-4-m {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .order-5-m {
+    -webkit-box-ordinal-group: 6;
+    -webkit-order: 5;
+    -ms-flex-order: 5;
+    order: 5;
+  }
   .order-99-m {
     -webkit-box-ordinal-group: 100;
     -webkit-order: 99;
@@ -4483,6 +4511,9 @@ textarea {
   }
   .w-40-l {
     width: 40%;
+  }
+  .w-45-l {
+    width: 45%;
   }
   .w-50-l {
     width: 50%;
@@ -5417,6 +5448,18 @@ textarea {
     -webkit-order: 3;
     -ms-flex-order: 3;
     order: 3;
+  }
+  .order-4-l {
+    -webkit-box-ordinal-group: 5;
+    -webkit-order: 4;
+    -ms-flex-order: 4;
+    order: 4;
+  }
+  .order-5-l {
+    -webkit-box-ordinal-group: 6;
+    -webkit-order: 5;
+    -ms-flex-order: 5;
+    order: 5;
   }
   .order-99-l {
     -webkit-box-ordinal-group: 100;
