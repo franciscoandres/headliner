@@ -54,6 +54,10 @@
   width: 40%;
 }
 
+.w-45 {
+  width: 45%;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -111,15 +115,15 @@
 }
 
 .mw-64 {
-  max-width: 64em;
+  max-width: 64em; // 1024 px
 }
 
 .mw-80 {
-  max-width: 80em;
+  max-width: 80em; // 1280 px
 }
 
 .mw-90 {
-  max-width: 90em;
+  max-width: 90em; // 1440 px
 }
 
 .vw-50 {
@@ -187,6 +191,10 @@
     width: 40%;
   }
 
+  .w-45-s {
+    width: 45%;
+  }
+
   .w-50-s {
     width: 50%;
   }
@@ -244,15 +252,15 @@
   }
 
   .mw-64-s {
-    max-width: 64em;
+    max-width: 64em; // 1024 px
   }
 
   .mw-80-s {
-    max-width: 80em;
+    max-width: 80em; // 1280 px
   }
 
   .mw-90-s {
-    max-width: 90em;
+    max-width: 90em; // 1440 px
   }
 
   .vw-50-s {
@@ -321,6 +329,10 @@
     width: 40%;
   }
 
+  .w-45-m {
+   width: 45%;
+  }
+
   .w-50-m {
     width: 50%;
   }
@@ -378,15 +390,15 @@
   }
 
   .mw-64-m {
-    max-width: 64em;
+    max-width: 64em; // 1024 px
   }
 
   .mw-80-m {
-    max-width: 80em;
+    max-width: 80em; // 1280 px
   }
 
   .mw-90-m {
-    max-width: 90em;
+    max-width: 90em; // 1440 px
   }
 
   .vw-50-m {
@@ -455,6 +467,10 @@
     width: 40%;
   }
 
+  .w-45-l {
+    width: 45%;
+  }
+
   .w-50-l {
     width: 50%;
   }
@@ -512,15 +528,15 @@
   }
 
   .mw-64-l {
-    max-width: 64em;
+    max-width: 64em; // 1024 px
   }
 
   .mw-80-l {
-    max-width: 80em;
+    max-width: 80em; // 1280 px
   }
 
   .mw-90-l {
-    max-width: 90em;
+    max-width: 90em; // 1440 px
   }
 
   .vw-50-l {
