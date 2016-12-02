@@ -1,38 +1,20 @@
-.bg-no-repeat {
-  background-repeat: no-repeat;
-}
+.bg-no-repeat { background-repeat: no-repeat; }
 
-.bg-repeat {
-  background-repeat: repeat;
-}
+.bg-repeat { background-repeat: repeat; }
 
-.bg-repeat-x {
-  background-repeat: repeat-x;
-}
+.bg-repeat-x { background-repeat: repeat-x; }
 
-.bg-repeat-y {
-  background-repeat: repeat-y;
-}
+.bg-repeat-y { background-repeat: repeat-y; }
 
-.bg-repeat-space {
-  background-repeat: space;
-}
+.bg-repeat-space { background-repeat: space; }
 
-.bg-repeat-round {
-  background-repeat: round;
-}
+.bg-repeat-round { background-repeat: round; }
 
-.bg-cover {
-  background-size: cover !important;
-}
+.bg-cover { background-size: cover !important; }
 
-.bg-contain {
-  background-size: contain;
-}
+.bg-contain { background-size: contain; }
 
-.bg-fixed {
-  background-attachment: fixed;
-}
+.bg-fixed { background-attachment: fixed; }
 
 .bg-center {
   background-repeat: no-repeat;
@@ -59,42 +41,31 @@
   background-position: center left;
 }
 
-@media screen and (min-width: 30em) {
-  .bg-no-repeat-s {
-    background-repeat: no-repeat;
+@media #{$small} {
+  .bg-no-repeat-s { background-repeat: no-repeat;
   }
 
-  .bg-repeat-s {
-    background-repeat: repeat;
+  .bg-repeat-s { background-repeat: repeat;
   }
 
-  .bg-repeat-x-s {
-    background-repeat: repeat-x;
+  .bg-repeat-x-s { background-repeat: repeat-x;
   }
 
-  .bg-repeat-y-s {
-    background-repeat: repeat-y;
+  .bg-repeat-y-s { background-repeat: repeat-y;
   }
 
-  .bg-repeat-space-s {
-    background-repeat: space;
+  .bg-repeat-space-s { background-repeat: space;
   }
 
-  .bg-repeat-round-s {
-    background-repeat: round;
+  .bg-repeat-round-s { background-repeat: round;
   }
 
-  .bg-cover-s {
-    background-size: cover !important;
+  .bg-cover-s { background-size: cover !important;
   }
 
-  .bg-contain-s {
-    background-size: contain;
-  }
+  .bg-contain-s { background-size: contain; }
 
-  .bg-fixed-s {
-    background-attachment: fixed;
-  }
+  .bg-fixed-s { background-attachment: fixed; }
 
   .bg-center-s {
     background-repeat: no-repeat;
@@ -122,42 +93,24 @@
   }
 }
 
-@media screen and (min-width: 30em) and (max-width: 60em) {
-  .bg-no-repeat-m {
-    background-repeat: no-repeat;
-  }
+@media #{$medium} {
+  .bg-no-repeat-m { background-repeat: no-repeat; }
 
-  .bg-repeat-m {
-    background-repeat: repeat;
-  }
+  .bg-repeat-m { background-repeat: repeat; }
 
-  .bg-repeat-x-m {
-    background-repeat: repeat-x;
-  }
+  .bg-repeat-x-m { background-repeat: repeat-x; }
 
-  .bg-repeat-y-m {
-    background-repeat: repeat-y;
-  }
+  .bg-repeat-y-m { background-repeat: repeat-y; }
 
-  .bg-repeat-space-m {
-    background-repeat: space;
-  }
+  .bg-repeat-space-m { background-repeat: space; }
 
-  .bg-repeat-round-m {
-    background-repeat: round;
-  }
+  .bg-repeat-round-m { background-repeat: round; }
 
-  .bg-cover-m {
-    background-size: cover !important;
-  }
+  .bg-cover-m { background-size: cover !important; }
 
-  .bg-contain-m {
-    background-size: contain;
-  }
+  .bg-contain-m { background-size: contain; }
 
-  .bg-fixed-m {
-    background-attachment: fixed;
-  }
+  .bg-fixed-m { background-attachment: fixed; }
 
   .bg-center-m {
     background-repeat: no-repeat;
@@ -185,42 +138,24 @@
   }
 }
 
-@media screen and (min-width: 60em) {
-  .bg-no-repeat-l {
-    background-repeat: no-repeat;
-  }
+@media #{$large} {
+  .bg-no-repeat-l { background-repeat: no-repeat; }
 
-  .bg-repeat-l {
-    background-repeat: repeat;
-  }
+  .bg-repeat-l { background-repeat: repeat; }
 
-  .bg-repeat-x-l {
-    background-repeat: repeat-x;
-  }
+  .bg-repeat-x-l { background-repeat: repeat-x; }
 
-  .bg-repeat-y-l {
-    background-repeat: repeat-y;
-  }
+  .bg-repeat-y-l { background-repeat: repeat-y; }
 
-  .bg-repeat-space-l {
-    background-repeat: space;
-  }
+  .bg-repeat-space-l { background-repeat: space; }
 
-  .bg-repeat-round-l {
-    background-repeat: round;
-  }
+  .bg-repeat-round-l { background-repeat: round; }
 
-  .bg-cover-l {
-    background-size: cover !important;
-  }
+  .bg-cover-l { background-size: cover !important; }
 
-  .bg-contain-l {
-    background-size: contain;
-  }
+  .bg-contain-l { background-size: contain; }
 
-  .bg-fixed-l {
-    background-attachment: fixed;
-  }
+  .bg-fixed-l { background-attachment: fixed; }
 
   .bg-center-l {
     background-repeat: no-repeat;

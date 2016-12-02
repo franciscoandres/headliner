@@ -1,14 +1,8 @@
-.b-none {
-  border-width: 0;
-}
+.b-none { border-width: 0; }
 
-.b-hidden {
-  border-style: hidden;
-}
+.b-hidden { border-style: hidden; }
 
-.b-all {
-  border: 1px solid;
-}
+.b-all { border: 1px solid; }
 
 .b-top {
   border-top-style: solid;
@@ -30,65 +24,35 @@
   border-left-width: 1px;
 }
 
-.b-dotted {
-  border-style: dotted;
-}
+.b-dotted { border-style: dotted; }
 
-.b-dashed {
-  border-style: dashed;
-}
+.b-dashed { border-style: dashed; }
 
-.b-double {
-  border-style: double;
-}
+.b-double { border-style: double; }
 
-.b-solid {
-  border-style: solid;
-}
+.b-solid { border-style: solid; }
 
-.b-wide {
-  border-width: 0.125em;
-}
+.b-wide { border-width: 0.125em; }
 
-.b-extra {
-  border-width: 0.25em;
-}
+.b-extra { border-width: 0.25em; }
 
-.b-top-0 {
-  border-top-width: 0;
-}
+.b-top-0 { border-top-width: 0; }
 
-.b-right-0 {
-  border-right-width: 0;
-}
+.b-right-0 { border-right-width: 0; }
 
-.b-bottom-0 {
-  border-bottom-width: 0;
-}
+.b-bottom-0 { border-bottom-width: 0; }
 
-.b-left-0 {
-  border-left-width: 0;
-}
+.b-left-0 { border-left-width: 0; }
 
-.rad0 {
-  border-radius: 0;
-}
+.rad0 { border-radius: 0; }
 
-.rad1 {
-  border-radius: 0.125em;
-}
+.rad1 { border-radius: 0.125em; }
 
-.rad2 {
-  border-radius: 0.25em;
-}
+.rad2 { border-radius: 0.25em; }
 
-.rad3 {
-  border-radius: 0.5em;
-}
+.rad3 { border-radius: 0.5em; }
 
-.rad4 {
-  border-radius: 1em;
-}
+.rad4 { border-radius: 1em; }
 
 .rounded-top {
   border-bottom-left-radius: 0;
@@ -110,6 +74,4 @@
   border-bottom-right-radius: 0;
 }
 
-.circle {
-  border-radius: 100%;
-}
+.circle { border-radius: 100%; }

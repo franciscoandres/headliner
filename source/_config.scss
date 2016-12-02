@@ -4,35 +4,70 @@
 
 //
 
+$small: "screen and (min-width: 30em)";
+$medium: "screen and (min-width: 30em) and (max-width: 60em)";
+$large: "screen and (min-width: 60em)";
+
+//
+
+// Spacing (Padding and Margin)
+
+//
+
+$spacing: (
+	"0": 0,
+	"1": 0.25,
+	"2": 0.5,
+	"3": 1,
+	"4": 2,
+	"5": 4,
+	"6": 8
+);
+
+//
+
+// Layout (Top, Right, Bottom and Left)
+
+//
+
+$layout: (
+	"0": 0,
+	"1": 1,
+	"2": 2,
+	"4": 4 
+);
+
 //
 
 // Colors
 
 //
 
-$white: #fff;
-$near-white: #f4f4f4;
-$light-gray: #aaa;
-$silver: #999;
-$gray: #777;
-$mid-gray: #555;
-$dark-gray: #333;
-$near-black: #111;
-$black: #000;
-
-$aqua: #33FFE3;
-$yellow: #ffec1a;
-$washed-yellow: #fff7a3;
-$blue: #1976d2;
-$light-blue: #2196f3;
-$washed-blue: #c2e2fb;
-$green: #388e3c;
-$light-green: #4caf50;
-$washed-green: #c8e6c9;
-$orange: #ffa000;
-$light-orange: #ffc107;
-$washed-orange: #ffecb3;
-$red: #d32f2f;
-$light-red: #f44336;
-$washed-red: #ffcdd2;
-$purple: #800055;
+$colors: (
+	"white": #fff,
+	"near-white": #f4f4f4,
+	"light-gray": #aaa,
+	"silver": #999,
+	"gray": #777,
+	"mid-gray": #555,
+	"dark-gray": #333,
+	"near-black": #111,
+	"black": #000,
+	"aqua": #33FFE3,
+	"yellow": #ffec1a,
+	"washed-yellow": #fff7a3,
+	"blue": #1976d2,
+	"light-blue": #2196f3,
+	"washed-blue": #c2e2fb,
+	"green": #388e3c,
+	"light-green": #4caf50,
+	"washed-green": #c8e6c9,
+	"orange": #ffa000,
+	"light-orange": #ffc107,
+	"washed-orange": #ffecb3,
+	"red": #d32f2f,
+	"light-red": #f44336,
+	"washed-red": #ffcdd2,
+	"purple": #800055,
+	"pink": #ff748c
+);
