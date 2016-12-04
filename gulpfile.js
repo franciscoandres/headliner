@@ -1,8 +1,10 @@
 let gulp      = require("gulp");
+let postcss   = require("gulp-postcss");
 let sass      = require("gulp-sass");
 let rename    = require("gulp-rename");
 let minify    = require("gulp-clean-css");
 let prefixer  = require("gulp-autoprefixer");
+let mq        = require("css-mqpacker");
 let header    = require("gulp-header");
 let size      = require("gulp-size");
 let bs        = require("browser-sync");
@@ -29,11 +31,14 @@ gulp.task("reload", () => {
 
 gulp.task("sass", () => {
 
+	var processors = [mq()];
+
 	let s = size({gzip: true});
 
 	return gulp.src(options.scss_source)
 		.pipe(sass().on("error", sass.logError))
 		.pipe(prefixer({browsers: options.prefixer_versions }))
+		.pipe(postcss(processors))
 		.pipe(header("/* ${pkg.name} - ${pkg.version} */\n", {pkg: pkg}))
 		.pipe(gulp.dest(options.css_dest))
 		.pipe(minify())
