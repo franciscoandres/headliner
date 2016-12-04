@@ -12,6 +12,16 @@
 
   .pl#{$key} { padding-left: #{$value}em; }
 
+  .p#{$key}n { padding: -#{$value}em; }
+
+  .pt#{$key}n { padding-top: -#{$value}em; }
+
+  .pr#{$key}n { padding-right: -#{$value}em; }
+
+  .pb#{$key}n { padding-bottom: -#{$value}em; }
+
+  .pl#{$key}n { padding-left: -#{$value}em; }
+
   .pv#{$key} {
     padding-top: #{$value}em;
     padding-bottom: #{$value}em;
@@ -33,6 +43,16 @@
   .mb#{$key} { margin-bottom: #{$value}em; }
 
   .ml#{$key} { margin-left: #{$value}em; }
+
+  .m#{$key}n { margin: -#{$value}em; }
+
+  .mt#{$key}n { margin-top: -#{$value}em; }
+
+  .mr#{$key}n { margin-right: -#{$value}em; }
+
+  .mb#{$key}n { margin-bottom: -#{$value}em; }
+
+  .ml#{$key}n { margin-left: -#{$value}em; }
 
   .mv#{$key} {
     margin-top: #{$value}em;
@@ -62,6 +82,16 @@
 
     .pl#{$key}-s { padding-left: #{$value}em; }
 
+    .p#{$key}n-s { padding: -#{$value}em; }
+
+    .pt#{$key}n-s { padding-top: -#{$value}em; }
+
+    .pr#{$key}n-s { padding-right: -#{$value}em; }
+
+    .pb#{$key}n-s { padding-bottom: -#{$value}em; }
+
+    .pl#{$key}n-s { padding-left: -#{$value}em; }
+
     .pv#{$key}-s {
       padding-top: #{$value}em;
       padding-bottom: #{$value}em;
@@ -83,6 +113,16 @@
     .mb#{$key}-s { margin-bottom: #{$value}em; }
 
     .ml#{$key}-s { margin-left: #{$value}em; }
+
+    .m#{$key}n-s { margin: -#{$value}em; }
+
+    .mt#{$key}n-s { margin-top: -#{$value}em; }
+
+    .mr#{$key}n-s { margin-right: -#{$value}em; }
+
+    .mb#{$key}n-s { margin-bottom: -#{$value}em; }
+
+    .ml#{$key}n-s { margin-left: -#{$value}em; }
 
     .mv#{$key}-s {
       margin-top: #{$value}em;
@@ -113,6 +153,16 @@
 
     .pl#{$key}-m { padding-left: #{$value}em; }
 
+    .p#{$key}n-m { padding: -#{$value}em; }
+
+    .pt#{$key}n-m { padding-top: -#{$value}em; }
+
+    .pr#{$key}n-m { padding-right: -#{$value}em; }
+
+    .pb#{$key}n-m { padding-bottom: -#{$value}em; }
+
+    .pl#{$key}n-m { padding-left: -#{$value}em; }
+
     .pv#{$key}-m {
       padding-top: #{$value}em;
       padding-bottom: #{$value}em;
@@ -134,6 +184,16 @@
     .mb#{$key}-m { margin-bottom: #{$value}em; }
 
     .ml#{$key}-m { margin-left: #{$value}em; }
+
+    .m#{$key}n-m { margin: -#{$value}em; }
+
+    .mt#{$key}n-m { margin-top: -#{$value}em; }
+
+    .mr#{$key}n-m { margin-right: -#{$value}em; }
+
+    .mb#{$key}n-m { margin-bottom: -#{$value}em; }
+
+    .ml#{$key}n-m { margin-left: -#{$value}em; }
 
     .mv#{$key}-m {
       margin-top: #{$value}em;
@@ -164,6 +224,16 @@
 
     .pl#{$key}-l { padding-left: #{$value}em; }
 
+    .p#{$key}n-l { padding: -#{$value}em; }
+
+    .pt#{$key}n-l { padding-top: -#{$value}em; }
+
+    .pr#{$key}n-l { padding-right: -#{$value}em; }
+
+    .pb#{$key}n-l { padding-bottom: -#{$value}em; }
+
+    .pl#{$key}n-l { padding-left: -#{$value}em; }
+
     .pv#{$key}-l {
       padding-top: #{$value}em;
       padding-bottom: #{$value}em;
@@ -185,6 +255,16 @@
     .mb#{$key}-l { margin-bottom: #{$value}em; }
 
     .ml#{$key}-l { margin-left: #{$value}em; }
+
+    .m#{$key}n-l { margin: -#{$value}em; }
+
+    .mt#{$key}n-l { margin-top: -#{$value}em; }
+
+    .mr#{$key}n-l { margin-right: -#{$value}em; }
+
+    .mb#{$key}n-l { margin-bottom: -#{$value}em; }
+
+    .ml#{$key}n-l { margin-left: -#{$value}em; }
 
     .mv#{$key}-l {
       margin-top: #{$value}em;
