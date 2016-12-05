@@ -1,12 +1,21 @@
 @each $key, $value in $layout {
-  .top#{$key} { top: #{$value}em; }
-  .top#{$key}n { top: -#{$value}em; }
-  .right#{$key} { right: #{$value}em; }
-  .right#{$key}n { right: -#{$value}em; }
-  .bottom#{$key} { bottom: #{$value}em; }
-  .bottom#{$key}n { bottom: -#{$value}em; }
-  .left#{$key} { left: #{$value}em; }
-  .left#{$key}n { left: -#{$value}em; }
+
+  .top-#{$key} { top: #{$value}em; }
+
+  .top-#{$key}n { top: -#{$value}em; }
+
+  .right-#{$key} { right: #{$value}em; }
+
+  .right-#{$key}n { right: -#{$value}em; }
+
+  .bottom-#{$key} { bottom: #{$value}em; }
+
+  .bottom-#{$key}n { bottom: -#{$value}em; }
+
+  .left-#{$key} { left: #{$value}em; }
+
+  .left-#{$key}n { left: -#{$value}em; }
+
 }
 
 .absolute { position: absolute; }
@@ -79,15 +88,25 @@
 .z-9999 { z-index: 9999; }
 
 @media #{$small} {
+
   @each $key, $value in $layout {
-    .top#{$key}-s { top: #{$value}em; }
-    .top#{$key}n-s { top: -#{$value}em; }
-    .right#{$key}-s { right: #{$value}em; }
-    .right#{$key}n-s { right: -#{$value}em; }
-    .bottom#{$key}-s { bottom: #{$value}em; }
-    .bottom#{$key}n-s { bottom: -#{$value}em; }
-    .left#{$key}-s { left: #{$value}em; }
-    .left#{$key}n-s { left: -#{$value}em; }
+
+    .top-#{$key}-s { top: #{$value}em; }
+
+    .top-#{$key}n-s { top: -#{$value}em; }
+
+    .right-#{$key}-s { right: #{$value}em; }
+
+    .right-#{$key}n-s { right: -#{$value}em; }
+
+    .bottom-#{$key}-s { bottom: #{$value}em; }
+
+    .bottom-#{$key}n-s { bottom: -#{$value}em; }
+
+    .left-#{$key}-s { left: #{$value}em; }
+
+    .left-#{$key}n-s { left: -#{$value}em; }
+
   }
 
   .absolute-s { position: absolute; }
@@ -163,14 +182,22 @@
 @media #{$medium} {
   
   @each $key, $value in $layout {
-    .top#{$key}-m { top: #{$value}em; }
-    .top#{$key}n-m { top: -#{$value}em; }
-    .right#{$key}-m { right: #{$value}em; }
-    .right#{$key}n-m { right: -#{$value}em; }
-    .bottom#{$key}-m { bottom: #{$value}em; }
-    .bottom#{$key}n-m { bottom: -#{$value}em; }
-    .left#{$key}-m { left: #{$value}em; }
-    .left#{$key}n-m { left: -#{$value}em; }
+
+    .top-#{$key}-m { top: #{$value}em; }
+
+    .top-#{$key}n-m { top: -#{$value}em; }
+
+    .right-#{$key}-m { right: #{$value}em; }
+
+    .right-#{$key}n-m { right: -#{$value}em; }
+
+    .bottom-#{$key}-m { bottom: #{$value}em; }
+
+    .bottom-#{$key}n-m { bottom: -#{$value}em; }
+
+    .left-#{$key}-m { left: #{$value}em; }
+
+    .left-#{$key}n-m { left: -#{$value}em; }
   }
 
 
@@ -246,14 +273,22 @@
 
 @media #{$large} {
   @each $key, $value in $layout {
-    .top#{$key}-l { top: #{$value}em; }
-    .top#{$key}n-l { top: -#{$value}em; }
-    .right#{$key}-l { right: #{$value}em; }
-    .right#{$key}n-l { right: -#{$value}em; }
-    .bottom#{$key}-l { bottom: #{$value}em; }
-    .bottom#{$key}n-l { bottom: -#{$value}em; }
-    .left#{$key}-l { left: #{$value}em; }
-    .left#{$key}n-l { left: -#{$value}em; }
+
+    .top-#{$key}-l { top: #{$value}em; }
+
+    .top-#{$key}n-l { top: -#{$value}em; }
+
+    .right-#{$key}-l { right: #{$value}em; }
+
+    .right-#{$key}n-l { right: -#{$value}em; }
+
+    .bottom-#{$key}-l { bottom: #{$value}em; }
+
+    .bottom-#{$key}n-l { bottom: -#{$value}em; }
+
+    .left-#{$key}-l { left: #{$value}em; }
+    
+    .left-#{$key}n-l { left: -#{$value}em; }
   }
 
   .absolute-l { position: absolute; }
