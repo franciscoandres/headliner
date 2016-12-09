@@ -8,7 +8,7 @@ let mq        = require("css-mqpacker");
 let header    = require("gulp-header");
 let size      = require("gulp-size");
 let bs        = require("browser-sync");
-let pkg       = require("./package.json")
+let pkg       = require("./package.json");
 
 let options  = {
 	"prefixer_versions": ["last 2 versions"],
@@ -31,8 +31,7 @@ gulp.task("reload", () => {
 
 gulp.task("sass", () => {
 
-	var processors = [mq()];
-
+	let processors = [mq()];
 	let s = size({gzip: true});
 
 	return gulp.src(options.scss_source)
