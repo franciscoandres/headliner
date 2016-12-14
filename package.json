@@ -1,9 +1,11 @@
 {
   "name": "headliner",
-  "version": "4.4.0",
+  "version": "4.4.1",
   "description": "Headliner is an OOCSS tool",
   "main": "css/headliner.min.css",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/franciscogo/headliner.git"
