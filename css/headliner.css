@@ -1,4 +1,4 @@
-/* headliner - 4.4.1 */
+/* headliner - 4.4.2 */
 html {
   box-sizing: border-box;
   font-family: -apple-system, Helvetica, Arial, sans-serif;
@@ -1304,7 +1304,7 @@ textarea {
   box-sizing: border-box; }
 
 .hidden {
-  display: none !important; }
+  display: none; }
 
 .visible {
   opacity: 1;
@@ -3230,7 +3230,7 @@ textarea {
     box-sizing: border-box; }
 
   .hidden-s {
-    display: none !important; }
+    display: none; }
 
   .visible-s {
     opacity: 1;
@@ -4520,7 +4520,7 @@ textarea {
     box-sizing: border-box; }
 
   .hidden-m {
-    display: none !important; }
+    display: none; }
 
   .visible-m {
     opacity: 1;
@@ -5810,7 +5810,7 @@ textarea {
     box-sizing: border-box; }
 
   .hidden-l {
-    display: none !important; }
+    display: none; }
 
   .visible-l {
     opacity: 1;
