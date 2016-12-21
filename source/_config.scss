@@ -4,9 +4,9 @@
 
 //
 
-$small: "screen and (min-width: 30em)";
-$medium: "screen and (min-width: 30em) and (max-width: 60em)";
-$large: "screen and (min-width: 60em)";
+$small: "screen and (min-width: 30em)"; // min 480px
+$medium: "screen and (min-width: 30em) and (max-width: 60em)"; // min 480px and max 960px
+$large: "screen and (min-width: 60em)"; // min 960px
 
 //
 
