@@ -1,0 +1,46 @@
+.parent-title {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		line-height: 1.25;
+	}
+}
+
+.parent-copy {
+	p,
+	ul,
+	ol {
+		line-height: 1.5;
+	}
+}
+
+.parent-paragraph {
+	p + p {
+		margin-top: 1.5em;
+	}
+}
+
+.parent-measure {
+	p {
+		max-width: 30em;
+	}
+}
+
+.parent-list-reset {
+	ul,
+	ol {
+		padding-left: 0;
+		list-style-type: none;
+	}
+}
+
+.parent-img {
+	img {
+		display: block;
+		max-width: 100%;
+		width: 100%;
+	}
+}
