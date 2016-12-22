@@ -1,4 +1,4 @@
-/* headliner - 4.4.2 */
+/* headliner - 4.5.0 */
 html {
   box-sizing: border-box;
   font-family: -apple-system, Helvetica, Arial, sans-serif;
@@ -1191,6 +1191,35 @@ textarea {
 .mh7 {
   margin-left: 16em;
   margin-right: 16em; }
+
+.parent-title h1,
+.parent-title h2,
+.parent-title h3,
+.parent-title h4,
+.parent-title h5,
+.parent-title h6 {
+  line-height: 1.25; }
+
+.parent-copy p,
+.parent-copy ul,
+.parent-copy ol {
+  line-height: 1.5; }
+
+.parent-paragraph p + p {
+  margin-top: 1.5em; }
+
+.parent-measure p {
+  max-width: 30em; }
+
+.parent-list-reset ul,
+.parent-list-reset ol {
+  padding-left: 0;
+  list-style-type: none; }
+
+.parent-img img {
+  display: block;
+  max-width: 100%;
+  width: 100%; }
 
 .top-0 {
   top: 0em; }
