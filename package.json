@@ -1,9 +1,11 @@
 {
   "name": "headliner",
-  "version": "4.5.0",
+  "version": "4.5.1",
   "description": "Headliner is an OOCSS tool",
   "main": "css/headliner.min.css",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/franciscogo/headliner.git"
