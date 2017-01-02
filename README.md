@@ -1,3 +1,3 @@
-# Headliner
+# Headliner (deprecated)
 
-Headliner is an OOCSS tool
+deprecated, **no longer maintained.**

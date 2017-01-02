@@ -1,7 +1,7 @@
 {
   "name": "headliner",
   "version": "4.5.2",
-  "description": "Headliner is an OOCSS tool",
+  "description": "no longer maintained",
   "main": "css/headliner.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
